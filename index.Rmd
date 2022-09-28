@@ -77,32 +77,34 @@ https://fnd-for-combined.netlify.app]
 class: inverse, center, middle
 
 .pull-left[
+
+# <img style="border-radius: 50%;" alt = "Picture of presenter 2" src="https://pbs.twimg.com/profile_images/1402004251933560839/GMvHx9Uf_400x400.jpg" width="180px"/>
+
+## Abi Methley
+
+### Senior Clinical Psychologist
+
+#### .fade[Stoke Neuropsychology Department<br><br>North Staffordshire Combined Healthcare NHS Trust]
+
+]
+
+
+.pull-right[
+
+
 # <img style="border-radius: 50%;" alt = "Picture of presenter 1", src="https://pbs.twimg.com/profile_images/1434417640920002563/ZS62zhXl_400x400.jpg" width="180px"/>
 ## Chris Gaskell
 
 ### Senior Clinical Psychologist
 
-#### .fade[North Staffordshire Combined Healthcare NHS Trust]
+#### .fade[Stoke Neuropsychology Department<br><br>North Staffordshire Combined Healthcare NHS Trust]
 
 [`r icons::icon_style(icons::fontawesome("twitter"), scale = 1.5)` ](https://twitter.com/chrisgaskell92)
 [`r icons::icon_style(icons::fontawesome("github"), scale = 1.5)`](https://github.com/chris-gaskell)
 [`r icons::icon_style(icons::fontawesome("envelope"), scale = 1.5)`](mailto:c.gaskell@sheffield.ac.uk)
 [`r icons::icon_style(icons::fontawesome("graduation-cap"), scale = 1.5)`](https://scholar.google.com/citations?user=gQuNwfYAAAAJ&hl=en&authuser=1&oi=ao)
 [`r icons::icon_style(icons::fontawesome("researchgate"), scale = 1.5)`](https://www.researchgate.net/profile/Chris-Gaskell-2)
-]
 
-
-.pull-right[
-# <img style="border-radius: 50%;" alt = "Picture of presenter 2" src="https://pbs.twimg.com/profile_images/1402004251933560839/GMvHx9Uf_400x400.jpg" width="180px"/>
-
-## Gregg Rawlings
-
-### Clinical Psychologist
-
-#### .fade[Nottingham Trent University]
-
-[`r icons::icon_style(icons::fontawesome("envelope"), scale = 1.5)`](grawllings@sheffield.ac.uk)
-[`r icons::icon_style(icons::fontawesome("researchgate"), scale = 1.5)`](https://www.researchgate.net/profile/Gregg-Rawlings-3)
 ]
 
 ???
@@ -119,7 +121,7 @@ background-size: contain
 
 - .Large[Emotionally pertinent areas] `r icons::icon_style(icons::fontawesome("frown-open", style = "solid"), scale = 1.5, fill = "white")` 
 - .Large[Potentially distressing videos] `r icons::icon_style(icons::fontawesome("video", style = "solid"), scale = 1.5, fill = "white")`
-- .Large[Not about changing protocol] `r icons::icon_style(icons::fontawesome("hand-paper", style = "solid"), scale = 1.5, fill = "white")`
+- .Large[Not about emergency treatment response] `r icons::icon_style(icons::fontawesome("hand-paper", style = "solid"), scale = 1.5, fill = "white")`
 
 
 ???
@@ -139,11 +141,11 @@ background-size: contain
 
 .pull-left[
 .large[
-- [**What is NEAD and FND?**](#what-slide) .blue[09:30-10:00]
-- [**Why and What is Happening?**](#why-slide) .blue[10:30-10:30]
-- [**Experience**](#experience-slide) .blue[10:45-11:15]
-- [**Therapeutic Approach**](#therapeutic-slide) .blue[11:15-11:45]
-- [**Case Examples**](#examples-slide) .blue[11.45-12:30]
+- [**What is FND?**](#what-slide)                          <br> .blue[.small[09:00-00:00]]
+- [**Why and What is Happening?**](#why-slide)             <br> .blue[.small[00:00-00:00]]
+- [**Experience**](#experience-slide)                      <br> .blue[.small[00:00-00:00]]
+- [**Therapeutic Approach**](#therapeutic-slide)           <br> .blue[.small[00:00-00:00]]
+- [**Case Examples**](#examples-slide)                     <br> .blue[.small[00:00-00:00]]
 - [**Resources**](#resources-slide)
 ]
 
@@ -628,13 +630,6 @@ class: inverse
 
 ???
 Here are a series of videos of people experiencing functional seizures.
-
----
-class: top, inverse
-# NEAD service patients
-
-???
-Here is a video of a patient I am working with Who has kindly offered to let me show this video to you all.
 
 
 ---
@@ -1351,5 +1346,5 @@ https://www.youtube.com/watch?v=olU3onRPqYs = really good video from MGH on pati
 https://www.youtube.com/watch?v=bfLv5jMJlOw = history of FND 4:30-7:30. Also good general lecture of FND.
 
 ```{r echo=F, include=F, eval=FALSE}
-#::to_pptx("index.Rmd")
+renderthis::to_pptx("index.Rmd")
 ```
