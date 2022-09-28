@@ -1,0 +1,1355 @@
+---
+title: "Functional Neurological<br>Disorders"
+subtitle: "Teaching for Combined NHS Foundation Trust"
+author: false
+institute: false
+date: false
+output:
+  xaringan::moon_reader:
+    seal: false
+    lib_dir: libs
+    css: ["custom.css", "fonts.css", "default", "default-fonts", "hygge", "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"]
+    nature:
+      ratio: 16:9
+      slideNumberFormat: |
+        <div class="progress-bar-container">
+          <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
+          </div>
+        </div>`
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      beforeInit: "https://platform.twitter.com/widgets.js"
+
+---
+class: inverse, left,
+background-image: url(https://images.unsplash.com/photo-1607688387751-c1e95ae09a42?ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODF8fGJyYWlufGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60)
+background-size: contain
+background-position: right
+
+```{r include=FALSE}
+options(htmltools.dir.version = FALSE)
+
+library(xaringan)
+library(xaringanExtra)
+library(dplyr)
+library(gganimate)
+library(ggExtra)
+library(xaringanthemer)
+library(RColorBrewer)
+library(vembedr)
+#library(tweetrmd)
+#library(emo)
+
+xaringanExtra::use_editable()
+xaringanExtra::use_panelset()
+xaringanExtra::use_freezeframe()
+xaringanExtra::use_webcam()
+xaringanExtra::use_fit_screen()
+xaringanExtra::use_progress_bar(color = "red", location = "top")
+xaringanExtra::use_tile_view()
+xaringanExtra::use_scribble()
+xaringanExtra::use_share_again()
+```
+
+
+.left[
+# Functional Neurological<br>Disorders
+]
+
+.pull-left[
+.center[.large[
+An introduction to working with functional neurological disorders (FND) for psychology and medicine
+
+*for:*
+
+**North Staffordshire Combined Healthcare NHS Trust**
+]
+
+https://fnd-for-combined.netlify.app]
+          ]
+          
+???
+- Welcome
+- Here is the url (for links, videos and up-to-date teaching).
+
+---
+class: inverse, center, middle
+
+.pull-left[
+# <img style="border-radius: 50%;" alt = "Picture of presenter 1", src="https://pbs.twimg.com/profile_images/1434417640920002563/ZS62zhXl_400x400.jpg" width="180px"/>
+## Chris Gaskell
+
+### Senior Clinical Psychologist
+
+#### .fade[North Staffordshire Combined Healthcare NHS Trust]
+
+[`r icons::icon_style(icons::fontawesome("twitter"), scale = 1.5)` ](https://twitter.com/chrisgaskell92)
+[`r icons::icon_style(icons::fontawesome("github"), scale = 1.5)`](https://github.com/chris-gaskell)
+[`r icons::icon_style(icons::fontawesome("envelope"), scale = 1.5)`](mailto:c.gaskell@sheffield.ac.uk)
+[`r icons::icon_style(icons::fontawesome("graduation-cap"), scale = 1.5)`](https://scholar.google.com/citations?user=gQuNwfYAAAAJ&hl=en&authuser=1&oi=ao)
+[`r icons::icon_style(icons::fontawesome("researchgate"), scale = 1.5)`](https://www.researchgate.net/profile/Chris-Gaskell-2)
+]
+
+
+.pull-right[
+# <img style="border-radius: 50%;" alt = "Picture of presenter 2" src="https://pbs.twimg.com/profile_images/1402004251933560839/GMvHx9Uf_400x400.jpg" width="180px"/>
+
+## Gregg Rawlings
+
+### Clinical Psychologist
+
+#### .fade[Nottingham Trent University]
+
+[`r icons::icon_style(icons::fontawesome("envelope"), scale = 1.5)`](grawllings@sheffield.ac.uk)
+[`r icons::icon_style(icons::fontawesome("researchgate"), scale = 1.5)`](https://www.researchgate.net/profile/Gregg-Rawlings-3)
+]
+
+???
+- Introductions
+- How to contact us
+
+---
+class: top, left, inverse
+background-image: url("https://images.unsplash.com/photo-1538166261293-9230c2a7ee36?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d2FybmluZ3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60")
+background-position: 225% 60%
+background-size: contain
+
+# Disclaimers
+
+- .Large[Emotionally pertinent areas] `r icons::icon_style(icons::fontawesome("frown-open", style = "solid"), scale = 1.5, fill = "white")` 
+- .Large[Potentially distressing videos] `r icons::icon_style(icons::fontawesome("video", style = "solid"), scale = 1.5, fill = "white")`
+- .Large[Not about changing protocol] `r icons::icon_style(icons::fontawesome("hand-paper", style = "solid"), scale = 1.5, fill = "white")`
+
+
+???
+- The content of what we are going to be discussing maybe distressful for some people here. We do not personally know what affiliations you have to this area so please feel free to look after yourself in anyway you need to.
+- I am going to be showing some videos of people experiencing functional symptoms and who are also experiencing acute distress, if anyone would sooner not watch these videos then you are welcome to turn off your screens while we are watching them. I'll give people a warning when there is going to be a video and then you can decide for yourself.
+- We are not here to Change your acute management of this condition. Neither of us are medically trained, so we will not know how to respond to someone experiencing a seizure. Instead, what is teaching is far is to give you all some understanding of what the condition is, and to discuss some of the challenges of living with this condition.
+
+
+---
+name: contents-slide
+class: top, left
+background-image: url(files/img/make-plan.jpg)
+background-position: 120% 70%
+background-size: contain
+
+# Contents
+
+.pull-left[
+.large[
+- [**What is NEAD and FND?**](#what-slide) .blue[09:30-10:00]
+- [**Why and What is Happening?**](#why-slide) .blue[10:30-10:30]
+- [**Experience**](#experience-slide) .blue[10:45-11:15]
+- [**Therapeutic Approach**](#therapeutic-slide) .blue[11:15-11:45]
+- [**Case Examples**](#examples-slide) .blue[11.45-12:30]
+- [**Resources**](#resources-slide)
+]
+
+.footnote[
+Note: **Headings** are internal links.
+
+A <a href="https://github.com/chris-gaskell/fnd-for-paramedics/blob/main/output/index.pdf">pdf of this presentation</a> `r icons::icon_style(icons::fontawesome("file-pdf", style = "solid"), scale = 1.5, fill = "black")` is also available.
+]]
+
+.pull-right[
+.footnote[
+
+]]
+
+---
+name: what-slide
+class: top, center
+background-image: url(https://images.unsplash.com/photo-1579099715183-a057711f3aa6?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2hhdHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60)
+background-position:100% 60%
+background-size: .3
+
+# So What is This All About?
+
+--
+
+.left[
+.large[
+- **FND** = Functional Neurological Disorder
+- **NEAD** = Non Epileptic Attack Disorder
+]]
+
+--
+
+.pull-left[
+`r embed_youtube("Dy3XLo7dVQI", width = 475, height = 275) %>% use_start_time("0m04s")`
+Video by Massachussets General Hospital
+]
+
+???
+- Brief explanation. epilepsy but without the same underlying electrical processes. Different brain structural changes.
+- Really important because treatments for seizures are not effective for functional seizures.
+- FND is an umbrella term that captures all the different types of seemingly neurological symptoms.
+
+---
+
+# Definitions: FND
+
+- .blue[Functional Neurological Symptoms Disorder:] added as an inclusion term to Conversion Disorder in the DSM-5 (2013).
+  - Diagnosis requires FND motor and/or sensory findings.
+  - “evidence of incompatibility between the symptom and recognized neurological or medical conditions” (APA, 2013, Stone et al., 2010b).
+  - The symptoms must impair social and/or occupational functioning or lead individuals to seek a medical opinion.
+  - No duration or severity criteria, or explicit rules for exclusion based on additional symptoms.
+
+- .blue[Dissociative Neurological Symptom Disorder] the most recent term used in the ICD-11 (World Health Organization International Coding manual) despite pushback from FND Hope and leading FND specialists around the world.
+
+???
+The term functional has been used to describe symptoms which impacts upon neurological function but which do not have the same underlying pathological abnormality.
+
+???
+- DSM-5 is the main book for classifying and diagnosing psychiatric conditions.
+- 
+
+---
+class: top, left
+background-image: url(files/img/survey-co-occurance.png), url(files/img/survey-vas.png)
+background-position:100% 100%, 0% 50%
+background-size: 60% 100%, 40% 65%
+
+<span role="img" aria-label="symptom co-occurance network"></span>
+
+# Symptoms of FND
+
+.footnote[
+.small[
+<a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/ene.15018?casa_token=2uCYK3ti2IMAAAAA:scIHpsYzg1-fU-YKXrGNfEOeq6oNNk_ILusUvSlaCCI2KwYUCXa2B19jwp-MNM4B23U7b2ECC7lQ7Rs">Butler et al (2021)</a> survey of 1048 individuals living with FND.
+]]
+
+???
+These visualisations come from a recent survey of people living with FND.
+
+This is the largest survey of this kind. As you can see on the right hand side from the symptom cooccurrence network there is a high comorbidity of various forms of symptoms with FND.
+
+Quite concerning are the rates of co-occurance with other symptoms which are not core FND symptoms, for example 93% of people with FND also experience fatigue.
+
+From the visual analog clock on the left you can see the responses to a range of questions from people living with FND. Quite interesting is the response to the question "Cause a combination of physical/stress", is very high. This is a little insight as to what people with FND believe the cause of it to be, and based on this it is both physical and stress related.
+
+???
+- Heterogeneity.
+- Co-occurance network. 
+- Biggest survey conducted on FND.
+- 50% of people had seizures. 93% had fatigue!
+- VAS - caused by physical and emotional factors.
+
+
+---
+class: top, left
+background-image: url(files/img/neurosymptoms-types.png)
+background-position: 100% 50%
+background-size: contain
+
+
+.left-column[
+# Types of FND
+
+.small[
+Classified by <a href="https://www.neurosymptoms.org/en_GB/symptoms/">neurosymptoms.org</a>, extracted  2021
+]]
+
+???
+FND takes many shapes and forms. The symptoms that one person experiences for FND may look very different to another persons experiences. This is what we call heterogeneity.As the constellation of symptoms that individuals experience can be so different, it is inherently difficult to classify subtypes. What we can do however is group the types of symptoms that people tend to experience. This grid is based on the euro symptoms website which is a fantastic resource. For each of these categories of symptoms there is a attached information sheet for patients and professionals to download.
+
+Working in and then EAD service, the people that I see all experience some form of functional seizure. Despite this, the vast majority of patients will also experience another form of functional symptom.
+
+???
+- Pretty much anything neurological!
+- Lots of people presenting to the NEAD service experience other symptoms.
+
+
+---
+# Definitions: Non-epileptic seizures
+
+- One manifestation or constellation of FND.
+- In DSM-5, functional seizures are classified as a form of conversion disorder, or functional neurological symptom disorder, with the term "functional" referring to an impairment of normal bodily functioning.
+- Disruption of usually integrated functions of consciousness, memory, id, or perception (amnesia, fugue, dissociative id disorder, depersonalisation disorder) (Goldstein et al, 2000)
+
+???
+- conversion disorder seldom used anymore. conversion of emotional distress into physical symptoms. 
+
+
+--
+
+People with NEAD experience **episodes of temporary loss of control and/ or awareness**
+
+```{r warning=FALSE, echo = FALSE, eval=TRUE}
+# Data for Table
+    SympomDomains <- c("Movement",    "Senses",      "Awareness & thinking skills")
+    Examples <- c("Shaking; Difficulty controlling movement; Falls",
+                  "Challenges to senses, Feeling numb",     " Feeling confused; Distant; Disorientated; Blacking out")
+    SummaryTable <- data.frame(SympomDomains, Examples)
+# Table
+ kableExtra::kable(SummaryTable, booktabs = TRUE, escape = FALSE, longtable = FALSE, align = "l",
+          caption = "Impact of NEAD.") %>%
+          kableExtra::row_spec(row = 0, align = "c") %>% kableExtra::kable_styling(full_width = FALSE, latex_options = "striped")
+```
+
+???
+- As you can see in the table, these are some of the differences between functional seizures and epileptic seizures.
+
+---
+background-image: url(files/img/tloc-esc.png)
+background-position: 100% 50%
+background-size: contain
+
+.footnote[
+Taken from: <a href="https://www.researchgate.net/publication/323856711_2018_ESC_Guidelines_for_the_diagnosis_and_management_of_syncope">ESC Guidelines for the diagnosis and management of syncope, 2018</a>]
+
+???
+When thinking about non-epileptic or functional seizures we are often referring to people experiencing a temporary loss of consciousness. Most specifically on this diagram we are thinking about the psychological causes of transient loss of consciousness.
+
+---
+exclude: true
+class: top, left
+
+`r fontawesome::fa("github", a11y = "sem")`
+
+---
+# Epilepsy vs. NEAD
+### What's the difference?
+
+```{r warning=FALSE, echo = FALSE, eval=TRUE}
+# Data for Table
+    NEAD <- c("No abnormal electrical disicharge",    "Of psychological origin",      "No need for anti-epileptic drug treatments",      "Abnormal EEG",      "Does not occur in sleep")
+    Epilepsy <- c("Abnormal electrical disicharge",       "Of physical origin",     "Need for anti-epileptic drug treatments",     "Normal EEG",   "Can occur in sleep")
+    SummaryTable <- data.frame(NEAD, Epilepsy)
+# Table
+ kableExtra::kable(SummaryTable, booktabs = TRUE, escape = FALSE, longtable = FALSE, align = "l",
+          caption = "NEAD vs Epilepsy.") %>%
+          kableExtra::row_spec(row = 0, align = "c") %>% kableExtra::kable_styling(full_width = FALSE, latex_options = "striped")
+```
+
+???
+- This is a really helpful tool it should be in provided by a recent academic publication.
+- It provides a summary of the evidence for various clinical signs in distinguishing between functional seizures and organic seizures.
+- Just a caveat, that we are not encouraging you to make a differential diagnosis or to change anything you would usually do in your acute management.
+
+
+---
+class: bottom, left
+background-image: url(files/img/Stone-NEAD-Table.png)
+background-position: 90% 50%
+background-size: contain
+
+.left-column[
+# Signs of Non-epileptic Attacks
+
+.small[Taken from: FND in the emergency department <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/acem.14263">Finkelstein et al., 2021</a>]]
+
+
+---
+class: bottom, left
+background-image: url(files/img/Stone-movement-table.png)
+background-position: 90% 50%
+background-size: contain
+
+.left-column[
+# Signs of Functional Weakness
+
+.small[Taken from: FND in the emergency department <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/acem.14263">Finkelstein et al., 2021</a>]]
+
+---
+class: top, centre
+
+# How common is NEAD?
+
+**Statistics:**
+
+- Approximately 20,000 people in the UK have a diagnosis (likely to be many more).
+- NEAD accounts for nearly 20% of presentations to seizure clinics
+<a href="https://www.sciencedirect.com/science/article/pii/S1059131108000022"> (Angus-Leppan 2008) </a>
+- NEAD accounts for a proportion of patients brought to hospital with suspected ‘status epilepticus’.
+- Recent estimate of prevalence (Norway) = 23.8 per 100,000<a href="https://onlinelibrary.wiley.com/doi/full/10.1111/epi.16949"> (Villagrán 2021) </a>
+
+.footnote[
+**Note:** It is hard to accurately quantify prevalence rates in non-epileptic attacks due to common diagnostic delay and patients being lost to follow-up.
+]
+
+???
+- Gregg starts here.
+- Because of the complexities around diagnosis, this 20,000 person estimate is likely to be a underestimation.
+–
+
+---
+# Who is most likely to be affected?
+
+1. **Age:**
+Young people (15–19) has been shown to be the period with greatest rate of onset. <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/epi.16949">Villagrán (2021) </a> - 59.5 per 100,000.
+1. **Gender** Female preponderance however disparities less evident in younger/older cohorts (e.g.,
+<a href="https://jnnp.bmj.com/content/early/2021/08/16/jnnp-2021-326443.abstract">Jungilligens, 2021 </a>)
+1. **Epilepsy:**
+High rate of comorbidity.
+1. **Psychiatric comorbdity**
+  1. Anxiety and depression 
+  1. "Personality disorder"
+  1. PTSD/Trauma
+1. More likely to: be **white, unemployed, lower SES, have an LD**.
+
+.footnote[
+**More information later on predisposing, precipitating and perpetuating factors.**
+ ]
+
+
+???
+- Age: Generally consistent with Hansen 2020 pediatric paper which found that across pediatric populations incidence rates is highest in 16-17 years old. 
+- Gender: Greater female preponderance in adolescence and adults however this seems to become less evident in older people.
+- Trauma: Lots of people who have not experienced trauma.
+
+---
+class: top, left
+background-image: url(files/img/pnes-types.png)
+background-position: 99% 50%
+background-size: 65% 65%
+
+# Diagnosis
+
+.pull-left-narrow[
+Usually by a Neurologist or Neuropsychiatrist.
+.small[
+- Clinical history
+- Videos
+- Objective signs
+- Subjective experience
+- EEG (electroencephalogram) 
+- ECG (electrocardiogram)
+- Videotelemetry
+]]
+
+
+???
+One of the key dilemmas facing this field is the obstacles to prompt and accurate diagnosis. Many professionals are simply unfamiliar with this condition, or maybe somewhat familiar but I'm confident to make accurate diagnosis.
+What's more it is, or can be very difficult to distinguish between epilepsy and functional seizures, and therefore it may need the specialist investigation of a highly specialist neurologist.
+May include the patient having to come to hospital for an inpatient admission so that they can be observed having seizures during the process known as video toiletry.
+Because of these dilemmas in reaching a diagnosis it is unfortunately common for patients to go a number of years before receiving a diagnosis.
+
+
+---
+
+# Misdiagnosis & delayed diagnosis
+
+Because NEAD can have clinical comparisons to epilepsy it can be difficult to distinguish one from the other.
+
+This can lead to a variety of concerns around:
+- Diagnostic delay.
+- Response to status epilepticus.
+- Prolonged use of anti-convulsants.
+- Lack of access to neccersary support.
+
+New paper demonstrating rates of people diagnosed and treated for status epilepticus who infact had non-epileptic attack <a href="https://jnnp.bmj.com/content/jnnp/early/2021/08/16/jnnp-2021-326443.full.pdf">(Jungilligens et al., 2021) </a>
+
+???
+Among 1210 patients diagnosed and treated as status epilepticus, 980 were aged eight years or older. Of these patients, 79 (8.1%) were discharged with a final diagnosis of pPNES. Of these, 55 (70%) were female and the mean age was 32.6 years (SD: 15.9 years), ranging from eight to 84 years.
+
+---
+# Misdiagnosis & delayed diagnosis
+
+.pull-left[Journey to diagnosis can be
+.red[very long].
+Recent estimate of 3.2 years (although 48% in same year).]
+
+.pull-right[
+![](files/img/getting-label.png)]
+
+---
+class: top
+
+# Not a New Condition
+
+.pull-left-narrow[
+`r embed_youtube("IWHbF5jGJY0", width = 400, height = 500, allowfullscreen = TRUE) %>% use_start_time("0m00s")`
+]
+
+.left[
+.pull-right-wide[
+- **400 BC** - Hippocrates -> "hysteria" (hyster = uterus).
+- **Pre-1700s** - Considered demonic possession/witchcraft `r emo::ji("mage")`
+- **Late-1700s** - Recognised as not gender exclusive `r emo::ji("female sign")``r emo::ji("male sign")`
+- **1800s** - Charcott -> "hysteria major" (functional seizures).
+- **1890s** - Freud -> "conversion disorder".
+- **1910s** - Studied prominently  (First World War -> ‘shell shock’).
+- **1980s** - Hysteria retired as a term within the US.
+]]
+
+
+???
+- 400 BC - Hippocrates coined "hysteria" (hyster = uterus). As an affliction considered to be exclusive to women.
+- Pre-1700s - Considered to be a form of demonic possession/witchcraft. Outside of the understading of the medical frameworks of the time.
+- Late-1700s - Recognition that it presents in both men and women.
+- 1800s - Charcott came up with the term "hysteria major" as a term to describe describe functional seizures.
+- 1890s - Freud coined "conversion disorder".
+- 1910s - Studied prominently after the First World War and the recognition of ‘shell shock’.
+- 1980s - Hysteria retired as a term within the US.
+
+---
+exclude: true
+class: top, left, animated, fadeIn
+background-image: url(https://i2.wp.com/mysocialmediamastery.com/wp-content/uploads/2020/06/WordsHavePower.jpg?resize=640%2C426)
+background-position:
+background-size: cover
+
+---
+class: top, left
+background-image: url(files/img/WordsHavePower.jpg)
+background-position: 85% 93%
+background-size: 40% 30%
+
+
+# Clearing up confusion
+
+.pull-left[
+
+Many terms used to describe the **same experience**.
+
+- Non-epileptic attacks
+- Psychogenic seizures
+- Psychogenic non-epileptic seizures (PNES) 
+- Dissociative seizures
+- Conversion disorder
+- Functional seizures
+- Psychological seizures
+- Pseudo-seizures]
+
+???
+- Important slide.
+- The language that gets used in referring to these experiences can be highly variable. As you can see on the slide there are a range of different terms which have all been used to describe a very similar experience or set of symptoms.
+The problem is some of The terms you can see are far less favoured by the FND community, and rightly so. There are unfortunately a lot of unhelpful views, stigmatisation held towards people that have this condition. And therefore some of these terms may. Hold onto those pejorative views.
+- There is unfortunately no consensus as to which term is the best, almost accurate.
+- And this is a topic of high debate currently. Terms which are generally less helpful are pseudoseizures, psychological seizures and conversion disorder.
+
+--
+
+.pull-right[
+Some terms more .red[**harmful and prejorative**].
+
+Debate regarding preferred term (see 
+<a href="https://www.sciencedirect.com/science/article/pii/S1059131103000554">Stone et al., 2003 </a>,
+<a href="https://www.seizure-journal.com/article/S1059-1311(19)30337-1/pdf">Barron., 2019</a>,
+FND Society., 2020, and
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2906405/">La France., 2010</a>).
+
+Be led by the individual.
+]
+
+---
+class: top, left
+background-image: url(files/img/terminology-preferences.png)
+background-position: 102% 50%
+background-size: contain
+
+
+.left-column[
+# What do patients prefer?
+
+.small[<a href="https://onlinelibrary.wiley.com/doi/full/10.1111/acem.14263">Loewenberger, 2021</a>]]
+
+???
+This is a recent article of a UK service valuation exploring patient's preferred label.
+
+---
+class: top, left
+background-image: url(files/img/preferences-rating.png)
+background-position: 50% 50%
+background-size: 
+
+???
+The bar chart that you can see shows the preference ratings of the commonly used terms in order to show rank. The terms are the score so a low preference rating is desirable and high preference rating is undesirable. As you can see hysteria pseudoseizures, Somatoform disorder are all less preferred. This is not surprising given the history of stigma and pejorative attitudes towards these terms.
+
+---
+
+# Not to be confused with
+
+.Large[**Malingering:**]
+- Deliberately manufacturing symptoms for material gain e.g. Money
+
+.Large[**Factitious Disorder:**]
+- Deliberately manufacturing symptoms for emotional gain e.g. Attention
+
+.red[Do not mistake NEAD symptoms for factitious/malingering just because it doesn’t fit with what you know of epileptic seizures]
+
+
+???
+One of the few things which I really hope that people take away from this teaching is that the symptoms and experience of functional symptoms are not under the conscious control of volition of the person experiencing them.
+This is really important because there is a history of people with FND not being believed or been described as "faking".
+These two conditions are different from FND And do you have some level of conscious control. While I am sure that there are a number of people with functional symptoms which may in fact be lingering, I truly believe that this is a very very very small minority.
+
+---
+class: top, left
+background-image: url(files/img/suspect-causes.png)
+background-position:
+background-size: contain
+
+???
+Whitehead et al., 2012
+Asked neurological and psychiatrists what they thought caused epilepsy and NEAD
+
+---
+
+class: inverse
+
+## Videos of FND and NEAs
+
+.panelset[
+
+.panel[.panel-name[NEA 1]
+.center[
+`r embed_youtube("MA1EYAg9y5k", width = 800, height = 450) %>% use_start_time("2m54s")`
+]
+] <!--CLip 1-->
+
+.panel[.panel-name[NEA 2]
+`r embed_youtube("MA1EYAg9y5k", width = 800, height = 450) %>% use_start_time("13m20s")`
+] <!--Clip 2-->
+
+.panel[.panel-name[NEA 3]
+`r embed_youtube("MdOCo4hD4zI", width = 800, height = 450) %>% use_start_time("0m44s")`
+] <!--Clip 3-->
+
+.panel[.panel-name[NEA 4]
+`r embed_youtube("MdOCo4hD4zI", width = 800, height = 450) %>% use_start_time("2m04s")`
+] <!--Clip 4-->
+
+.panel[.panel-name[NEA 5]
+`r embed_youtube("i_1U9lNi314", width = 800, height = 450) %>% use_start_time("0m59s")`
+] <!--Clip 5-->
+
+.panel[.panel-name[NEA 6]
+`r embed_youtube("8ODK1tQsxSE", width = 800, height = 550) %>% use_start_time("0m00s")`
+] <!--Clip 6-->
+
+.panel[.panel-name[NEA 7]
+`r embed_youtube("6UkHFlZN3jg", width = 800, height = 550) %>% use_start_time("1m00s")`
+] <!--Clip 7-->
+]
+
+???
+Here are a series of videos of people experiencing functional seizures.
+
+---
+class: top, inverse
+# NEAD service patients
+
+???
+Here is a video of a patient I am working with Who has kindly offered to let me show this video to you all.
+
+
+---
+name: why-slide
+class: inverse, middle, center
+# Why is it happening?
+
+---
+class: top, left
+background-image: url(https://wexnermedical.osu.edu/-/media/images/wexnermedical/blog/2018-stories/12/watery-eyes/watery-eye_large.jpg?la=en&hash=44804C18C1D6E03DC44D5AD8B2C2CAA17EB3B37A), url(https://austinheart.com/util/images/blog/2019/2019-Aug-Blog--Woman-Clutching-Her-Chest-950x475.jpg)
+background-position:95% 85%, 95% 45%
+background-size: 300px 150px, 300px 150px
+
+
+# The mind body link
+
+Psychological experiences influence the body .red[.Large[**All The Time**]]
+
+.pull-left[
+- Sudden shock = heart beats faster
+- Embarrassment = face goes red
+- Upset = eyes produce tears
+
+It is normal for changes to happen in the body
+**without** a medical cause or disease
+(e.g. tears when we feel sad are not caused by a disease; it is the mind-body link).
+#### NEAD also happens through this Mind-Body link.
+The cause is not medical but the impact on the body is .red[.bolder[REAL]].
+]
+.pull-right[
+<img src="" width="70%"/>
+<img src="" width="70%"/>
+]
+
+???
+- People often told that it isn't physical - comes as a big shock.
+- What we know about the mind and body are that they are, as I'm sure you already know, intrinsically related.
+- How we think and feel can have a huge influence on our body and our visceral experience. On our very relatable set of examples, I'm sure people have had experience of shedding a tear and feeling really sad or heart rate increasing and feeling quite scared or shocked.
+- This relationship between the mind and body is in a small part A small illustration of what can happen in NEAD. In thinking about any NEAD and also in treating it we are constantly thinking about this mind body link.
+
+
+---
+class: top, left
+
+# Influence of trauma
+
+-  A traumatic event = an incident that causes physical, emotional or psychological harm.
+-  Can be single event or many unpleasant/threatening incidents
+-  Could be recent or a long time ago
+
+**FACT:** It is common for people with NEAD to have experienced some form of trauma
+
+**BUT**: Many people with NEAD have NOT experienced a trauma
+
+Although many people with NEAD can identify things that have happened/ are happening in their lives that contribute to a build-up of stress, many people do not.
+
+The reasons why an individual develops NEAD is not always obvious at first, because everyone’s lives are different.
+
+???
+- The magnitude of a trauma is less to do with how severe the event is but how severe it is percieved and processed by the individual. 
+- Trauma is something that gets brought up a lot when discussing functional seizures. Trauma or a traumatic event is an event or incident which includes some form of harm either physical emotional or psychological.
+- This might be a single isolated incident (example car crash). Or it might be a more cumulative effect of lots of little things that happen over time (Example bullying).
+- Lots of people with functional symptoms have experienced some form of trauma, however there are also a subset of patients who have not.
+- When there is no trauma present, it can leave conditions feeling a little confused as to why the functional symptoms have developed. For some people, there may have been some form of trauma but which can no longer be remembered or is not recognised as being traumatic. For example so I might have had a close family bereavement, and the individual with functional symptoms may feel that this was unrelated to the functional symptoms, however it might be that overtime this is related.
+
+---
+class: middle, left
+background-image: url(files/img/trauma-models.png)
+background-position: 115% 100%
+background-size: contain
+
+
+.left-column[
+
+# Role of Trauma
+
+.small[Taken from <a href="https://jnnp.bmj.com/content/90/7/813">Keynejad, 2021</a>]]
+
+???
+
+- This is a framework of the different ways that people can experience trauma, and how that can have an impact upon whether or not a person develops functional symptoms.
+- Each of these four quadrants show different permutations of how functional seizures might develop.
+In the top left quadrant you have a scenari whereby you might have a biological risk to developing this condition and then they were exposed to a moderate stressful event in childhood and then later in adult there was a moderate precipitating factor.
+- even people with mild biological risk can develop it.
+
+---
+class: top, left
+background-image: url(files/img/formulation.png)
+background-position: 50% 100%
+background-size: 80% 50%
+
+# Other relevant factors?
+
+- No single factor explaining functional seizures across all patients.
+- There is also interoception and emotional tolerance.
+- avoidance and isolation.
+- People have often (not always) had previous life adversity and stressful life events (e.g., abuse, trauma or neglect).
+- Patients can be experiencing acute and ongoing stress, this could also be related to dysfunctional relationships and attachment difficulties.
+- Formulation figure from
+<a href="https://pubmed.ncbi.nlm.nih.gov/19853215/">Reuber, 2009</a>
+
+
+---
+class: top, left
+# What is happening during NEAD?
+
+.pull-left[
+- Fight/flight/freeze response - evolutionary based fear response that is adaptive for survival
+- Freezing is one of the main defensive threat reactions across species
+- (Roelofs, 2017; Rockliffe-Fidler & Mark Willis, 2018)
+
+.center[
+![](files/img/fight-flight-freeze.jpg)
+]]
+
+.pull-right[
+`r embed_youtube("lAtW7nJUcRA", width = 800, height = 400) %>% use_start_time("2m54s")`
+]
+
+???
+- fight-flight theory. sympathetic nervous system.
+- parasymathetic branch of the NS. 
+- Sometimes it can be an adaptive response.
+- A means of responding to a threat or a trigger. mammals. 
+
+---
+class: top, left
+# What can cause a person to go into/ stay in the amber zone?
+
+1. Physical stress in the body (e.g., injury, illness, pain).
+2. Difficult past experiences (e.g., situations that have felt threatening, loss of a loved one).
+3. Current stressful situations (e.g., relating to finances, relationships, difficulty meeting responsibilities, loss of independence).
+4. Emotional stress (e.g., worries about the future, difficult memories).
+
+For many people, it is not one big thing that has caused them to go into and stay in the amber zone. It is often a combination of factors.
+
+---
+class: top, left
+background-image: url(files/img/polyvagal.jpg)
+background-position:
+background-size: 95% 100%
+
+---
+class: top, left
+background-image: url(files/img/green.png)
+background-position: contain
+background-size: 100% 100%
+
+---
+class: top, left
+background-image: url(files/img/amber.png)
+background-position: contain
+background-size: 100% 100%
+
+---
+class: top, left
+background-image: url(files/img/red.png)
+background-position: contain
+background-size: 100% 100%
+---
+name: experience-slide
+class: inverse, middle, center
+# Experience
+
+---
+class: top, left
+background-image: url(files/img/portrait.png)
+background-position: cover
+background-size: 60% 100% 
+
+???
+This is a painting from someone who NEAD  - this image is a reflection of what she felt like before she attended therapy for NEAD. 
+
+---
+class: top, left
+background-image: url(files/img/variability.png
+background-position: 50% 95%
+background-size: 90% 35%
+
+# Inter and Intra-variability
+
+- Different people experience different symptoms (illustrated in co-occurance network).
+- Symptoms of functional seizures are not always the same.
+- Symptoms change over time: example., patients initially experience panic attacks, but over time, symptoms of anxiety may diminish and manifestations of dissociation and functional seizures increase (Goldstein and Mellers, 2006).
+- Table below taken from <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1528-1167.2011.03162.x">Reuber et al., 2011</a>
+
+
+???
+Reuber et al., 2011 asked 100 people with NEAD about their experiences associated with the seizures. As you can see seizure events were not always experienced the same by an individual and there was considerable variation between patients. 
+
+As mentioned before the symptoms of non-epileptic attacks or other forms of functional disorder can look very different from one person to the next.In addition, the nature of symptoms can change dramatically for each person over time.For example so I may start off with one dominant form of symptom, but overtime over symptoms become more or less apparent. One person that I am working with currently, when he will affect the service his dominant symptom was functional seizures. But by the time his appointment came round he had developed a functional speech disorder. This caused him to hijacking in his neck and increased effort to speak.
+
+---
+class: top, left
+background-image: url(files/img/triggers.png)
+background-position: 95% 65%
+background-size: 45% 50%
+
+# Triggers
+
+.pull-left[
+<a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1528-1167.2011.03162.x">Reuber et al., 2011</a>
+found considerable heterogeneity of triggers.
+- Small minority (10%) were “always” aware of triggers; 57% were aware of triggers for some but not all; 31% claimed never to be aware of triggers
+- 43% of patients stated that functional seizures “always” “come on out of the blue.
+- Witnesses questioned in the same study reported being aware of seizure triggers more often than patients.
+- plot is unpublished data
+]
+
+
+
+???
+- Most commonly perceived triggers were:
+  - Emotional states (50%: feeling stressed, upset, anxious, aroused, neglected, nonspecific unwell)
+  - Bodily states (21%: illness, loss of sleep, feeling hot or cold, tiredness, pain, feeling dehydrated or exhausted after something energetic)
+  - External stimuli (9%: crowded places, flashing lights, black and white patterns, blue light, flashing lights, smoke / flames / dogs / household objects acting as traumatic reminders, sun on surface, neon lights)
+
+
+---
+class: top, left
+background-image: url(files/img/no-warning.png), url(files/img/warning-type.png)
+background-position: 95% 15%, 95% 90%
+background-size: 45% 40%, 45% 40%
+
+# Warnings
+
+.pull-left[
+- rates of prodromal/warning symptoms vary widely (24%-92%, see Reuber & Rawlings)
+- People are (at times) more aware of the physical warning signs as opposed to  emotional warning signs.
+- "Willful submission" 
+<a href = "https://jnnp.bmj.com/content/84/7/822.short?casa_token=sfClvFXXrjAAAAAA:bJvdFojchmiwqd82Tegqie4XnMndKlhs1_l1xAqwhSjmDaLNMCYAyMz1iVFIgqrW6dXODTAIvZU">(Stone & Carson, 2013)</a>. Although this does not mean the symptoms are intentional.
+
+Plots taken from <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1528-1167.2011.03162.x">Reuber et al., 2011</a>
+]
+
+
+---
+class: top, left
+background-image: url(files/img/ictal.png), url(files/img/ictal2.png)
+background-position: 95% 15%, 95% 90%
+background-size: 45% 40%, 45% 40%
+
+# Experiences during
+
+.pull-left[
+- Tends to last longer than in epilepsy (Gates et al., 1985).
+- functional seizures over 30 minutes occur in about one-third of patients.
+- More than one-quarter diagnosed with PNES received intensive care treatment for presumed status epilepticus at least once (Reuber et al., 2003).
+- Plots from Plug et al., 2009
+]
+
+???
+- One study found that generalized tonic-clonic seizures lasted 50–92 seconds (Gates et al., 1985). whereas PNES lasted 20–805 seconds; Many PNES went on for more than 2 minutes .
+
+---
+class: top, left
+
+# What does NEAD feel like?
+
+<figure class="quote">
+  <blockquote>.blue[
+  .large[
+    “I feel like I am ‘tripping’ without taking nothing. I am in another world short term, and I feel confused, dazed, disorientated and its scary. My head and brain feels like a tin of broken biscuits. I am different and feel weird. Luckily these episodes don’t last long, but they happen ‘out of the blue’, when you least expect it!"]]
+</figure>
+
+<figure class="quote">
+  <blockquote>.blue[
+  .large[
+  "Understanding of my environment is lost, and my body changes with my eyes spinning and poor-coordination and my listening is affected. I feel stupid during these episodes and I wonder do people notice or think I am acting or faking it for attention?”]]
+  <figcaption>
+    &mdash; People living with non-epileptic attacks</cite>  </figcaption>
+</figure>
+---
+class: top, left
+
+# What does NEAD feel like?
+
+<figure class="quote">
+  <blockquote>.blue[
+  .large[
+“I feel really spaced out. Like I’m not really there. I try to move but I am like a snail. I try to talk but it’s like my tongue is stuck”]]
+</figure>
+<figure class="quote">
+  <blockquote>.blue[
+  .large[
+“I feel really spaced out. Like I’m not really there. I try to move but I am like a snail. I try to talk but it’s like my tongue is stuck”]]
+</figure>
+<figure class="quote">
+  <blockquote>.blue[
+  .large[
+“I really can’t get up and cannot speak, if I kick out it is not because I am being aggressive, it’s because my body can help it”]]
+  <figcaption>
+    &mdash; People living with non-epileptic attacks</cite>  </figcaption>
+</figure>
+
+
+---
+class: top, left
+background-image: url(files/img/nead-epilepsy.png), url(files/img/nead-epilepsy2.png), url(files/img/nead-epilepsy3.png), url(files/img/nead-epilepsy4.png)
+background-position: 5% 10%, 5% 80%, 95% 10%, 95% 80%
+background-size: 45% 40%, 45% 40%, 45% 40%, 45% 40%
+
+.footnote[images via Reuber and Kurthen 2011 and Bell et al, 1998, and Kuyk et al., 1999]
+
+---
+class: top, left
+background-image: url(files/img/aftermath.png)
+background-position: 50% 85%
+background-size: 80% 60%
+
+# The aftermath
+
+- Patients often find it easier to feel the post-ictal symptoms.
+- Plot taken from...?
+
+
+---
+class: top, left
+
+# Experiences of professionals
+
+
+.pull-left[
+- Review captured experiences of at least 3900 healthcare professionals from at least 63 different counties
+- Responses demonstrated uncertainty about many aspects of NEAD
+- NEAD considered challenging and frustrating
+- Mixed views about who is responsible for treating patients with NEAD
+]
+
+.pull-right[
+![](files/img/research-areas.png)
+]
+
+--
+
+- How might this affect the care that people with NEAD receive?
+- What could be the consequences of this? 
+
+
+---
+name: therapeutic-slide
+class: inverse, middle, center
+# Therapeutic Solutions
+
+---
+class: top, left
+background-image: url(files/img/wristband.png), url(files/img/cards.png)
+background-position:85% 85%, 85% 20%
+background-size: 400px 250px, 400px 250px
+
+# Is this NEAD?
+
+.pull-left[
+- Salford Royal NEAD service guidance letter
+- Friends/ family members
+- Salford Royal NEAD guidance cards
+- Medical alert bracelets
+
+Do not attempt to make a differential diagnosis. If information about the diagnosis is not available, follow epilepsy guidelines.
+]
+
+???
+- Stipulate that this is not about differential diagnosis.
+- Evidence of it being NEAD might be there. But if not then err on the side of caution that it may be epilepsy (it is nead and it is NOT epilepsy).
+- But why do ambulances get called?
+- People around may not be aware of the right way to respond.
+
+---
+class: top, left
+# Common concerns about NEAD
+
+The changes that are experienced before, during and after episodes are caused by the fight/ flight/ freeze response
+
+These changes might look and feel uncomfortable/ unpleasant but are not causing immediate harm:
+- Brain activity remains the same
+
+- Having an episode is not caused by and does not cause long-term internal damage.
+
+---
+class: top, left
+# Common concerns about NEAD
+
+**Risk of injury**
+-  NEAD episodes do not cause internal damage
+-  Risk of injury from falls during episodes is low
+(number of injuries VS total number of episodes)
+
+**Duration of episodes**
+-  Episodes can last seconds, minutes, hours or even days.
+-  Even if the episode lasts a long time (or longer than usual), it is
+still not causing internal damage
+-  The episode will pass naturally without need for medical
+intervention
+
+**Symptom variation**
+-  Many people experience episodes that feel very different to one another
+-  It is normal for episodes to change over time
+---
+
+class: top, left
+
+.pull-left[
+### .green[Do]
+1. Maintain a calm, quiet environment
+2. Give me space, speak to me calmly
+3. Tell other people it is NOT a medical emergency
+4. Help to re-orientate (e.g. tell the person where and who they are, what is happening).
+5. Offer water.
+6. Encourage noticing what they can see/hear (e.g. count the number of circles/ red things).
+7. Maintain a calm environment.
+8. Encourage focus on slow, deep breaths.
+9. Find out if there is someone who can help them to get home/ to a safe place?
+10. Provide support to friends/ family.
+]
+.pull-right[
+### .red[Do not]
+1. Give me medication
+2. Touch me (unless to protect my head)
+3. Crowd or stand over me
+4. let there be more thn one person nearby
+5. Try to bring me "out of it"
+6. Restrain me
+7. Time the episode
+8. Take me to hospital, unless I have a significant injurt that needs immediate medical attention
+9. try to lift the person up or try to get them moving before they are ready
+10. Ask lots of questions
+]
+
+???
+- People with NEAD may still be able to hear (unlike NEAD
+- idea is that the person gets to the place where they can manage it themselves (not have to go to hospital).
+- No need to have to get people to end it quickly.
+- May be tired and stressed and therefore at higher risk of further episodes.
+- not about differential dx but rather bearing this information in mind. 
+- If you have suspicions or evidence of NEAD then pass it on during your handover to make sure they get the appropriate care.
+- gently re-orienting and offering as they may be confused or be finding it difficult to communicate. 
+
+
+---
+class: top, left
+# How we talk about NEAD matters
+
+.pull-left[
+Communication has a significant impact on:
+
+-  Patient satisfaction
+-  Acceptance of the diagnosis
+-  Frequency/ severity of symptoms
+-  Future engagement with healthcare services
+
+(Hall-Patch et al., 2010; McKenzie, Russell, Pelosi & Duncan, 2010)
+]
+
+.pull-right[
+`r embed_youtube("MA1EYAg9y5k", width =500, height = 450) %>% use_start_time("1m00s")`
+]
+
+???
+- can impact engagement and future access to treatment.
+- people can get messages that it is all in their head.
+- Episode is less threatening.
+
+
+---
+
+class: top, left
+# How we talk about NEAD matters
+
+.pull-left[
+## .green[helpful]
+
+“We know your symptoms are real”
+
+“We do not think your symptoms are “all in your head””
+
+“We know that you are not pretending”
+
+“We know that this is not your fault”
+
+“NEAD is a well-recognised condition”
+
+“It’s like having a software problem in your brain rather than a hardware problem”(Stone)"
+]
+
+
+.pull-right[
+## .red[Unhelpful]
+
+“You are (just) stressed”
+
+“You do not have...”
+
+“It’s nothing to worry about”
+
+“You can control this”
+
+“Stop doing this”
+]
+
+---
+class: top, left
+class: top, left
+background-image: url(files/img/fnd-hope-stigma.jpg)
+background-position: 95% 85%
+background-size: contain
+
+# Stigma
+
+
+---
+name: examples-slide
+class: inverse, middle, center
+# Case Vignettes
+
+---
+
+class: top, left
+
+# Case Example 1
+
+.Large[You are called to an incident in a shopping centre. The report is of someone experiencing a sudden collapse. You arrive to find a man, approximately 50 years old, on the floor making jerking movements with his arms and legs. His eyes are closed and he is not responding to your questions.]
+
+.large[*Q: What are the standard assessments and interventions you would carry out in this situation?*
+]
+---
+class: top, left
+
+# Case Example 2
+
+.Large[Whilst you are treating your patient, his care worker arrives. She lets you know that his name is Alan, he has a moderate learning disability, and has a NEAD diagnosis.
+
+She tells you that he started to have NEAD episodes 3 years ago when he was living in an inpatient care facility. He was frequently restrained and sedated and did not understand why. His experiences were very distressing and, as a consequence, he now fears healthcare professionals.
+]
+
+.large[*Taking this information into consideration*:
+1. *Q: What are the helpful things you could do?*
+2. *Q: What are the unhelpful things you could dop?*
+]
+
+---
+class: top, left
+
+# Case Example 2 - "An Unhelpful Experience"
+
+**What could be done differently:**
+-  Don’t assume that I am drunk/ a druggie
+-  Don’t assume that I am play acting for attention
+-  Do treat me with compassion – I am a person who is not in control and feeling very scared
+- Don’t tell me to get up, talk, stop burbling, telling me there’s no reason why I can’t talk
+-  Understand that the episodes can come in waves and I, like many people, can be thrown back in to another episode one after another for several hours
+-  Please offer me a drink with straw and then hold it – I am not able to move and, when episodes last for hours, can get pretty thirsty
+-  Do provide reassurance
+-  Do sit next to me, don’t stand over me
+
+---
+class: top, left
+
+# Case Example 2 - "A Helpful Experience"
+
+### The most helpful things that the paramedic team did:
+-  They were calm
+-  They took on board all the information they could find in my bag and the lanyard
+-  They worked out that I could sometimes respond by nodding slightly and shaking head very slightly. They were quick to pick that up and the grunts I made! That made a massive difference.
+-  When I was in the ambulance the paramedic asked me if I wanted the straps on me kept on. I still couldn’t talk or respond much but she seemed to understand that I could hear and understand. It was so helpful to keep the straps on because of my violent jerking. She was able to understand that I needed them staying.
+-  I can’t remember if the paramedic asked me if I could hear her and understand her but I think she must have done.
+-  Paramedics explained my diagnosis to staff at the emergency dept.
+
+---
+name: resources-slide
+class: middle, center, inverse
+# Resources & Acknowledgments
+
+---
+class: top, left, inverse
+
+.pull-left-narrow[
+### Acknowledgments
+
+- A big thank you to all of the Twitter community who contributed to this teaching through their very helpful suggestions.
+- Many of these individuals were people who experience functional symptoms.]
+
+.pull-right-wide[
+```{r echo=F}
+#tweet_embed(tweet_url("chrisgaskell92", "1422124260844138501"), theme = "light", maxwidth = 700)
+```
+]
+
+
+---
+class: top, left
+
+# .small[.center[Website Links]]
+
+.pull-left-narrow[
+<p><a href="https://www.fndhope.org">
+<img src="files/img/fndhope.png" alt="W3Schools.com" width="200" height="135" style="border:1px solid black">
+</a></p>
+<p><a href="http://www.manchesterneurosciences.com/departments/neuropsychology/nead">
+<img src="files/img/srft.png" alt="W3Schools.com" width="200" height="135" style="border:1px solid black">
+</a></p>
+<p><a href="https://www.https://www.fndsociety.org/">
+<img src="files/img/fnd-soci.png" alt="W3Schools.com" width="200" height="135" style="border:1px solid black">
+</a></p>
+
+</body>
+</html>
+]
+
+.pull-right-wide[
+## FND Hope
+- FND charity
+- Lots of helpful information and resources for patients.
+
+## SRFT NEAD service
+- NEAD service website
+- Information and clinical resources for patients.
+
+## FND Society
+- Professional network for FND
+- High quality teaching and educational material.
+]
+
+---
+class: top, left
+
+# .small[.center[Website Links]]
+
+.pull-left-narrow[
+<p><a href="https://www.fndaction.org.uk/non-epileptic-attack-disorder/">
+<img src="files/img/fnd-action.jpeg" alt="W3Schools.com" width="200" height="135" style="border:1px solid black">
+</a></p>
+<p><a href="http://neurosymptoms.org/">
+<img src="files/img/neuro-symptoms.png" alt="W3Schools.com" width="200" height="135" style="border:1px solid black">
+</a></p>
+<p><a href="http://www.nonepilepticattacks.info/">
+<img src="files/img/nea.jpeg" alt="W3Schools.com" width="200" height="135" style="border:1px solid black">
+</a></p>
+
+</body>
+</html>
+]
+
+.pull-right-wide[
+## FND Action
+- UK Patient led charity for FND. Provides supports, support groups, informative website and advocating.
+
+## Neuro symptoms
+- Informational website for patients and professions
+- Lots of high quality resources and information sheets
+
+## Non-epileptic attacks
+- Registered trust and charity involved in supporting patients with non-epileptic attacks.
+]
+
+
+---
+class: top, left
+
+# .small[.center[Books]]
+
+.pull-left-narrow[
+<p><a href="https://www.amazon.co.uk/Non-Epileptic-Seizures-Our-Experience-Professionals/dp/0190927755">
+<img src="files/img/in-our-experience.jpg" alt="W3Schools.com" width="200" height="200" style="border:1px solid black">
+</a></p>
+<p><a href=https://www.amazon.co.uk/Our-Words-Personal-Non-Epileptic-Brainstorms/dp/0190622776">
+<img src="files/img/in-our-words.jpg" alt="W3Schools.com" width="200" height="200" style="border:1px solid black">
+</a></p>
+
+</body>
+</html>
+]
+
+.pull-right-wide[
+## In Our Experiences
+- Book collating professional experiences of working/supporting people with functional seizures.
+ 
+ 
+ 
+
+## In Our Words
+- Book collating patient experiences of what it is like to live with functional seizures.
+
+]
+
+
+---
+
+
+
+# References
+- Brown, R. J., & Reuber, M. (2016). Towards an integrative theory of psychogenic non-epileptic seizures (PNES). Clinical Psychology Review, 47, 55–70. doi: 10.1016/j.cpr.2016.06.003
+- Hall-Patch, L., Brown, R., House, A., Howlett, S., Kemp, S., Lawton, G., Mayor, R., Smith P., & Reuber, M. (2010). Acceptability and effectiveness of a strategy for the communication of the diagnosis of psychogenic nonepileptic seizures. Epilepsia, 51(1), 70–78. doi: 10.1111/j.1528-1167.2009.02099.x
+- Howell, S.J.L., Owen, K. & Chadwick, D.W. (1989). Pseudostatus Epilepticus. (1989). The Lancet, 334(8661), 485. doi: 10.1016/s0140-6736(89)92094-1
+- Kotsopoulos, I. A., Krom, M. C. D., Kessels, F. G., Lodder, J., Troost, J., Twellaar, M., ... Knottnerus, A. J. (2003). The diagnosis of epileptic and non-epileptic seizures. Epilepsy Research, 57(1), 59–67. doi: 10.1016/j.eplepsyres.2003.10.014
+- Mckenzie, P., Oto, M., Russell, A., Pelosi, A., & Duncan, R. (2009). Early outcomes and predictors in 260 patients with psychogenic nonepileptic attacks. Neurology, 74(1), 64–69. doi: 10.1212/wnl.0b013e3181c7da6a
+- Porges, S. W. (2009). The polyvagal theory: New insights into adaptive reactions of the autonomic nervous system. Cleveland Clinic Journal of Medicine, 76(Suppl_2). doi: 10.3949/ccjm.76.s2.17
+
+---
+
+- Rawlings, G. H., Brown, I., & Reuber, M. (2017). Deconstructing stigma in psychogenic nonepileptic seizures: An exploratory study. Epilepsy & Behavior, 74, 167–172. doi: 10.1016/j.yebeh.2017.06.014
+- Rockliffe-Fidler, C., & Willis, M. (2019). Explaining dissociative seizures: a neuropsychological perspective. Practical Neurology, 19(3), 259–263. doi: 10.1136/practneurol-2018-002100
+- Roelofs, K. (2017). Freeze for action: neurobiological mechanisms in animal and human freezing. Philosophical Transactions of the Royal Society B: Biological Sciences, 372(1718), 20160206. doi: 10.1098/rstb.2016.0206
+- Stone, J., Carson, A. & Hallett, M. (2016). Explanation as treatment for functional neurologic disorders. Handbook of clinical neurology, 139(3), 543-553.
+
+---
+
+class: inverse, middle, center
+# Finished
+
+---
+exclude: true
+https://www.youtube.com/watch?v=olU3onRPqYs = really good video from MGH on patient journey of diagnosis and MDT treatment.
+
+https://www.youtube.com/watch?v=bfLv5jMJlOw = history of FND 4:30-7:30. Also good general lecture of FND.
+
+```{r echo=F, include=F, eval=FALSE}
+#::to_pptx("index.Rmd")
+```
