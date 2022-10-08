@@ -60,7 +60,7 @@ a {
 }
 
 a:hover {
-  color: DarkBlue;
+  color: orange;
   text-decoration: none;
 }
 
@@ -84,22 +84,22 @@ a:fa {
 .remark-slide-content h2 {
   /*font-size:          35px;*/
   /*font-size:          1.4em;*/
-  font-weight:        400;
-  color:              #6ebcf7
+  font-weight:        350;
+  color:              var(--DarkBlue);
   line-height:        1em;
   letter-spacing:     0.02em;
 }
 
 .remark-slide-content h3 {
   /*font-size:          1em;*/
-  font-weight:        500;
+  font-weight:        250;
   color:              var(--DarkBlue);
   line-height:        1em;
 }
 
 .remark-slide-content h4 {
   /*font-size:          1em;*/
-  font-weight:        500;
+  font-weight:        250;
   color:              var(--DarkBlue);
   line-height:        1em;
 }
@@ -125,6 +125,8 @@ hr {
 .inverse {
   text-shadow:        none;
 }
+
+
 
 /*-- Headings (inverse) --*/
 .inverse h1, .inverse h2, .inverse h3 { color: white; }
@@ -264,6 +266,8 @@ content: "";
   color:              white;
 }
 
+
+
 /*-- Headings --*/
 .title-slide h1 {
   font-size:          3.0em;
@@ -344,7 +348,7 @@ opacity: 0.85;}
 
 .remark-slide-number .progress-bar {
   height: 100%;
-  background-color: var(--DarkBlue);
+  background-color: var(--my-pink);
 }
 
 /*-- EXPERIMENTAL -----------------------------------------------------------*/
@@ -398,8 +402,18 @@ opacity: 0.85;}
   width: 30%;
 }
 
+.pull-right-narrow {
+  float: right;
+  width: 30%;
+}
+
 .pull-right-wide {
   float: right;
+  width: 65%;
+}
+
+.pull-left-wide {
+  float: left;
   width: 65%;
 }
 
@@ -465,7 +479,7 @@ code.r.hljs.remark-code:hover {
 .remark-slide-number .progress-bar-container {
   position: absolute;
   bottom: 0;
-  height: 8px;
+  height: 7px;
   display: block;
   left: 0;
   right: 0;
@@ -473,8 +487,11 @@ code.r.hljs.remark-code:hover {
 
 .remark-slide-number .progress-bar {
   height: 100%;
-  background-color: var(--DarkBlue);
+  background-color: orange;
 }
 
+li:not(:last-child) {
+    margin-bottom: 18px;
+}
 
 
