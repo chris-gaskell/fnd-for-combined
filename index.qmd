@@ -105,8 +105,6 @@ North Staffordshire Combined Healthcare NHS Trust
 
 ------------------------------------------------------------------------
 
-## 
-
 {{< youtube Dy3XLo7dVQI >}}
 
 ::: aside
@@ -117,9 +115,13 @@ Video by Massachusetts General Hospital
 
 -   *FND* = Functional Neurological Disorder
 
+    -   Umbrella Diagnosis :umbrella:
+
 -   *FS* = Functional Seizure
 
 -   *NEAD* = Non Epileptic Attack Disorder
+
+-   FMD = Functional Movement Disorder
 
 ::: notes
 \- Brief explanation. epilepsy but without the same underlying electrical processes. Different brain structural changes.
@@ -129,38 +131,42 @@ Video by Massachusetts General Hospital
 \- FND is an umbrella term that captures all the different types of seemingly neurological symptoms.
 :::
 
-## Definitions:
+## Diagnoses:
 
-### Functional Neurological Symptoms Disorder
+### Functional Neurological Symptoms Disorder (DSM-V)
 
--   Umbrella Diagnosis :umbrella:
+-   Inclusion term to Conversion Disorder
 
--   Added as an inclusion term to Conversion Disorder in the DSM-5 (2013).
+-   Diagnosis requires motor and/or sensory findings.
 
--   Diagnosis requires FND motor and/or sensory findings.
+-   Evidence of incompatibility between symptom and recognized neurological/medical conditions (APA, 2013, Stone et al., 2010b).
 
--   Evidence of incompatibility between symptom and recognized neurological/medical conditions" (APA, 2013, Stone et al., 2010b).
+-   Symptoms must impair social/occupational functioning or lead individuals to seek a medical opinion.
 
--   The symptoms must impair social and/or occupational functioning or lead individuals to seek a medical opinion. No duration or severity criteria, or explicit rules for exclusion based on additional symptoms.
+-   No duration or severity criteria, or explicit rules for exclusion based on additional symptoms.
 
-### Dissociative Neurological Symptom Disorder
+### Dissociative Neurological Symptom Disorder (ICD-11)
 
--   Used in the ICD-11 despite much pushback from FND charities and specialists around the world.
+-   Much push back on terminology from FND charities and specialists around the world.
 
-## Definitions:
-
-### Functional seizures
+## Functional seizures
 
 -   One manifestation or constellation of FND.
 
--   In DSM-5, functional seizures are classified as a form of conversion disorder, or functional neurological symptom disorder, with the term "functional" referring to an impairment of normal bodily functioning.
+-   Within DSM-V classified (conversion disorder/functional neurological symptom disorder).
 
--   Disruption of usually integrated functions of consciousness, memory, id, or perception (amnesia, fugue, dissociative id disorder, depersonalisation disorder) (Goldstein et al, 2000)
+-   "Functional" referring to an impairment of normal functioning.
 
--   People with NEAD experience \*\*episodes of temporary loss of control and/ or awareness\*\*
+-   Disruption of usually integrated functions of consciousness, memory, identity, or perception (Goldstein et al, 2000)
+
+-   Temporary loss of **control and/or awareness**.
 
 ::: notes
-The term functional has been used to describe symptoms which impacts upon neurological function but which do not have the same underlying pathological abnormality.
+-   The term functional has been used to describe symptoms which impacts upon neurological function but which do not have the same underlying pathological abnormality.
+
+<!-- -->
+
+-   Dissociation: amnesia, fugue, dissociative id disorder, depersonalisation disorder)
 :::
 
 ## Videos of FND
@@ -238,11 +244,11 @@ Taken from a [survey of 1048 individuals living with FND]{.aside} [(Butler et al
 
 ------------------------------------------------------------------------
 
-![](files/img/neurosymptoms-types.png){fig-align="center" width="550" height="600"}
+## Symptom Heterogeneity {background-color="white"}
 
-::: aside
-[Classified by [neurosymptoms.org](https://www.neurosymptoms.org/en_GB/symptoms/), extracted 2021]{.aside}
-:::
+Classified by [neurosymptoms.org](https://www.neurosymptoms.org/en_GB/symptoms/), extracted 2021
+
+![](files/img/neurosymptoms-types.png){fig-align="center" width="1400" height="1000"}
 
 ::: notes
 -   FND takes many shapes and forms. The symptoms that one person experiences for FND may look very different to another persons experiences. This is what we call heterogeneity.As the constellation of symptoms that individuals experience can be so different, it is inherently difficult to classify subtypes. What we can do however is group the types of symptoms that people tend to experience. This grid is based on the euro symptoms website which is a fantastic resource. For each of these categories of symptoms there is a attached information sheet for patients and professionals to download.
@@ -271,11 +277,11 @@ Taken from a [survey of 1048 individuals living with FND]{.aside} [(Butler et al
 
 ------------------------------------------------------------------------
 
-![](files/img/historical.jpg){.img fig-align="center"}
+## Historical Perspectives {background-color="white"}
 
-::: aside
 Taken from [Raynor & Baslet (2021)](https://www.sciencedirect.com/science/article/pii/S2589986421000630)
-:::
+
+![](files/img/historical.png){.img fig-align="center"}
 
 ::: notes
 \- 400 BC - Hippocrates coined "hysteria" (hyster = uterus). As an affliction considered to be exclusive to women.
@@ -297,15 +303,15 @@ Taken from [Raynor & Baslet (2021)](https://www.sciencedirect.com/science/articl
 
 ::: columns
 ::: {.column width="50%"}
--   Not suggesting a behavioural or intentional component
+-   Impairment of function.
 
--   Impairment of function (appears neurological) but in the absence of expected structural damage.
+-   **Not** suggesting a behavioural or intentional component
 
--   Functional vs. Organic debates are outdated, unhelpful and inaccurate (dualistic thinking).
+-   Functional vs. Organic debates are outdated and inaccurate dualism.
 
--   How can a person be non-organic?[^1]
+-   Can a person be non-organic?[^1]
 
--   Software problem as opposed to a hardware problem.
+-   Software problem vs. hardware problem?
 :::
 
 ::: {.column width="50%"}
@@ -313,7 +319,7 @@ Taken from [Raynor & Baslet (2021)](https://www.sciencedirect.com/science/articl
 :::
 :::
 
-[^1]: See excellent [video](https://www.youtube.com/watch?v=ersm5f_0LVI&t=21s%22) by John Stone for more on this.
+[^1]: See excellent video by [John Stone](https://www.youtube.com/watch?v=ersm5f_0LVI&t=21s%22) for more on this.
 
 ::: notes
 -   (i.e., not relating to or derived from living matter).
@@ -325,13 +331,11 @@ Taken from [Raynor & Baslet (2021)](https://www.sciencedirect.com/science/articl
 
 ::: columns
 ::: {.column width="50%"}
--   Neurological differences shown in FND (see. [Perez et al., \[2021\]](https://www.sciencedirect.com/science/article/pii/S221315822100067X)) for a review).
+-   Neuroimaging in FND is an emerging area[^2].
 
--   Emerging area
+-   Neurological differences shown in FND[^3].
 
--   Do not match neurological counterparts.
-
--   FMRI studies \> differences within people while experiencing vs volunteering tremor ([Voon et al., 2010](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2809033/))
+-   FMRI studies show differences within people while experiencing vs volunteering tremor ([Voon et al., 2010](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2809033/))
 
 -   Now an international working group.
 :::
@@ -339,11 +343,13 @@ Taken from [Raynor & Baslet (2021)](https://www.sciencedirect.com/science/articl
 ::: {.column width="50%"}
 ![](files/img/neuropatho.jpg){style="box-shadow: 0 0 20px black;"}
 
--   Taken from Drane et al (2020)
+-   Multi-network disorder (Perez, 2021) likely influencing limbic/salience, self-agency, attentional, and sensorimotor circuits
+:::
+:::
 
--   Multi-network disorder: limbic/salience, self-agency, attentional, and sensorimotor circuits (Perez, 2021).
-:::
-:::
+[^2]: Figure taken from from Drane et al (2020)
+
+[^3]: see. [Perez et al (2021)](https://www.sciencedirect.com/science/article/pii/S221315822100067X) for a review
 
 ::: notes
 Compared to brain imaging in other neuropsychiatric disorders, FND research remains in its early stages (e.g., no samples \> 100 patients, few findings replicated, and even fewer studies tied to treatments).notes
@@ -353,11 +359,11 @@ Compared to brain imaging in other neuropsychiatric disorders, FND research rema
 # Diagnosis, Prevalence & Terminology {background-color="#57342d"}
 :::
 
-## Who diagnoses?
+## Who Diagnoses?
 
 Usually by a Neurologist or Neuropsychiatrist.
 
--   Assessment can include:
+Assessments can include:
 
 -   Clinical history
 
@@ -373,6 +379,10 @@ Usually by a Neurologist or Neuropsychiatrist.
 
 -   Video telemetry
 
+Anyone professional who potentially comes into contact with patients has a potential role in identification and/or clarification.
+
+This is everyone!
+
 ::: notes
 One of the key dilemmas facing this field is the obstacles to prompt and accurate diagnosis. Many professionals are simply unfamiliar with this condition, or maybe somewhat familiar but I'm confident to make accurate diagnosis.
 
@@ -383,35 +393,35 @@ May include the patient having to come to hospital for an inpatient admission so
 Because of these dilemmas in reaching a diagnosis it is unfortunately common for patients to go a number of years before receiving a diagnosis.
 :::
 
-## Symptoms: Functional Movement
+##  {background-color="white"}
 
-![](files/img/Stone-movement-table.png)
+::: callout-important
+## Key Points Around Diagnosis {background-color="white"}
 
-::: aside
-Taken from: FND in the emergency department [Finkelstein et al (2021)](https://onlinelibrary.wiley.com/doi/full/10.1111/acem.14263)
+-   Based on positive clinical signs/symptoms[^4].
+
+-   Internal inconsistency (reversibility) and/or to a lesser extent incongruency with known patterns of structural neurological disease.
+
+-   Trauma is not required for diagnosis (more on this later).
+
+-   Perceptions of 'diagnosis of exclusion' and hesitancy lead to damaging delays in diagnosis.
+
+-   Following diagnosis, new symptoms are frequently (and wrongfully) dismissed.
 :::
 
-## Symptoms: Functional Seizures
+[^4]: Helpful articles on positive symptoms include [Aybeck, 2022](%22https://drive.google.com/file/d/1YZF-9aHuYeLkgAErzHXx4F-I-rC_2lNq/view) & [Finkelstein et al (2021)](https://onlinelibrary.wiley.com/doi/full/10.1111/acem.14263)
 
-![](files/img/Stone-NEAD-Table.png)
+## Symptoms: Functional Movement {background-color="white"}
 
-::: aside
 Taken from: FND in the emergency department [Finkelstein et al (2021)](https://onlinelibrary.wiley.com/doi/full/10.1111/acem.14263)
-:::
 
-## Not a Diagnosis of Exclusion
+![](files/img/Stone-movement-table.png){fig-align="center" width="1200" height="1200"}
 
-1.  The symptom or deficit is not better explained by another medical or mental (health) disorder." (DSM-V, criteria 3)
+## Symptoms: Functional Seizures {background-color="white"}
 
-2.  Does not mean diagnosis of exclusion.
+Taken from: FND in the emergency department [Finkelstein et al (2021)](https://onlinelibrary.wiley.com/doi/full/10.1111/acem.14263)
 
-3.  People with FND can have other physical and neurological conditions.
-
-4.  Risk of over attributing new somatic concerns falsely to FND.
-
-5.  Leaves patients feeling dismissed.
-
-More information on positive symptoms available in [Aybeck, 2022](%22https://drive.google.com/file/d/1YZF-9aHuYeLkgAErzHXx4F-I-rC_2lNq/view)
+![](files/img/Stone-NEAD-Table.png){width="1200" height="1200"}
 
 ## How common?
 
@@ -1290,3 +1300,4 @@ physical burden, chronic stress, unable or unwilling to recognise or respond.
 ::: {style="text-align: center; padding: 200px 0;"}
 ## Thanks for Listening !
 :::
+
