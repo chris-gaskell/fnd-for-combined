@@ -257,9 +257,13 @@ Classified by [neurosymptoms.org](https://www.neurosymptoms.org/en_GB/symptoms/)
 -   Lots of people presenting to the NEAD service experience other symptoms.
 :::
 
-## Not a New Condition
+## Historical Perspectives {background-color="white"}
 
-::: nonincremental
+Taken from [Raynor & Baslet (2021)](https://www.sciencedirect.com/science/article/pii/S2589986421000630)
+
+![](files/img/historical.png){.img fig-align="center" height="1000"}
+
+::: notes
 -   400 BC: Hippocrates -\> "hysteria" (hyster = uterus).
 
 -   Pre-1700s:Considered demonic possession/witchcraft
@@ -272,31 +276,9 @@ Classified by [neurosymptoms.org](https://www.neurosymptoms.org/en_GB/symptoms/)
 
 -   1910s: Studied prominently (First World War -\> 'shell shock').
 
+-   1910+ Long forgotten about.
+
 -   1980s: Hysteria retired as a term within the US.
-:::
-
-------------------------------------------------------------------------
-
-## Historical Perspectives {background-color="white"}
-
-Taken from [Raynor & Baslet (2021)](https://www.sciencedirect.com/science/article/pii/S2589986421000630)
-
-![](files/img/historical.png){.img fig-align="center"}
-
-::: notes
-\- 400 BC - Hippocrates coined "hysteria" (hyster = uterus). As an affliction considered to be exclusive to women.
-
-\- Pre-1700s - Considered to be a form of demonic possession/witchcraft. Outside of the understanding of the medical frameworks of the time.
-
-\- Late-1700s - Recognition that it presents in both men and women.
-
-\- 1800s - Charcott came up with the term "hysteria major" as a term to describe describe functional seizures.
-
-\- 1890s - Freud coined "conversion disorder".
-
-\- 1910s - Studied prominently after the First World War and the recognition of 'shell shock'.
-
-\- 1980s - Hysteria retired as a term within the US.
 :::
 
 ## What do we mean by functional?
@@ -307,9 +289,9 @@ Taken from [Raynor & Baslet (2021)](https://www.sciencedirect.com/science/articl
 
 -   **Not** suggesting a behavioural or intentional component
 
--   Functional vs. Organic debates are outdated and inaccurate dualism.
+-   [^1] vs. Organic debates are outdated and inaccurate dualism.
 
--   Can a person be non-organic?[^1]
+-   Can a person be non-organic?[^2]
 
 -   Software problem vs. hardware problem?
 :::
@@ -319,7 +301,9 @@ Taken from [Raynor & Baslet (2021)](https://www.sciencedirect.com/science/articl
 :::
 :::
 
-[^1]: See excellent video by [John Stone](https://www.youtube.com/watch?v=ersm5f_0LVI&t=21s%22) for more on this.
+[^1]: In no way related to the behavioural notion of 'functional analysis'
+
+[^2]: See excellent video by [John Stone](https://www.youtube.com/watch?v=ersm5f_0LVI&t=21s%22) for more on this.
 
 ::: notes
 -   (i.e., not relating to or derived from living matter).
@@ -331,9 +315,9 @@ Taken from [Raynor & Baslet (2021)](https://www.sciencedirect.com/science/articl
 
 ::: columns
 ::: {.column width="50%"}
--   Neuroimaging in FND is an emerging area[^2].
+-   Neuroimaging in FND is an emerging area[^3].
 
--   Neurological differences shown in FND[^3].
+-   Neurological differences shown in FND[^4].
 
 -   FMRI studies show differences within people while experiencing vs volunteering tremor ([Voon et al., 2010](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2809033/))
 
@@ -347,9 +331,9 @@ Taken from [Raynor & Baslet (2021)](https://www.sciencedirect.com/science/articl
 :::
 :::
 
-[^2]: Figure taken from from Drane et al (2020)
+[^3]: Figure taken from from Drane et al (2020)
 
-[^3]: see. [Perez et al (2021)](https://www.sciencedirect.com/science/article/pii/S221315822100067X) for a review
+[^4]: See [Perez et al (2021)](https://www.sciencedirect.com/science/article/pii/S221315822100067X) for a review
 
 ::: notes
 Compared to brain imaging in other neuropsychiatric disorders, FND research remains in its early stages (e.g., no samples \> 100 patients, few findings replicated, and even fewer studies tied to treatments).notes
@@ -396,9 +380,7 @@ Because of these dilemmas in reaching a diagnosis it is unfortunately common for
 ##  {background-color="white"}
 
 ::: callout-important
-## Key Points Around Diagnosis {background-color="white"}
-
--   Based on positive clinical signs/symptoms[^4].
+-   Based on positive clinical signs/symptoms[^5].
 
 -   Internal inconsistency (reversibility) and/or to a lesser extent incongruency with known patterns of structural neurological disease.
 
@@ -409,7 +391,7 @@ Because of these dilemmas in reaching a diagnosis it is unfortunately common for
 -   Following diagnosis, new symptoms are frequently (and wrongfully) dismissed.
 :::
 
-[^4]: Helpful articles on positive symptoms include [Aybeck, 2022](%22https://drive.google.com/file/d/1YZF-9aHuYeLkgAErzHXx4F-I-rC_2lNq/view) & [Finkelstein et al (2021)](https://onlinelibrary.wiley.com/doi/full/10.1111/acem.14263)
+[^5]: Helpful articles on positive symptoms include [Aybeck, 2022](%22https://drive.google.com/file/d/1YZF-9aHuYeLkgAErzHXx4F-I-rC_2lNq/view) & [Finkelstein et al (2021)](https://onlinelibrary.wiley.com/doi/full/10.1111/acem.14263)
 
 ## Symptoms: Functional Movement {background-color="white"}
 
@@ -445,23 +427,23 @@ It is difficult to accurately quantify prevalence rates due to diagnostic delay 
 
 ## Risk Factors?
 
-1.  **Age:**
+-   **Age:**
 
     -   Presents across the life span.
 
     -   Young adults (15--19) most at risk: 59.5 per 100,000. ([Villagrán et al., 2021](https://onlinelibrary.wiley.com/doi/full/10.1111/epi.16949))
 
-2.  **Gender:**
+-   **Gender:**
 
     -   Female preponderance = 60-80%.
 
     -   Disparities less evident in older cohorts (e.g., [Jungilligens, 2021](https://jnnp.bmj.com/content/early/2021/08/16/jnnp-2021-326443.abstract))
 
-3.  **Epilepsy:** High rate of co-morbidity.
+-   **Epilepsy:** High rate of co-morbidity.
 
-4.  Learning Disabilities: High rate of co-morbidity.
+-   Learning Disabilities: High rate of co-morbidity.
 
-5.  Demographics:
+-   Demographics:
 
     -   White and low SES
 
@@ -471,7 +453,7 @@ For a detailed account of risk and aetiological factor see [Popkirov et al., (20
 
 ## Risk Factors?
 
-1.  **Psychiatric co-morbidity**
+-   **Psychiatric co-morbidity**
 
     -   Anxiety and depression.
 
@@ -479,7 +461,7 @@ For a detailed account of risk and aetiological factor see [Popkirov et al., (20
 
     -   PTSD, Trauma.
 
-2.  **Health co-morbidity**
+-   **Health co-morbidity**
 
     -   Pain & Fatigue.
 
@@ -505,37 +487,31 @@ For a detailed account of risk and aetiological factor see [Popkirov et al., (20
 -   Additional physical and mental health diagnoses in FND, at least as currently defined, are the norm rather than an exception (Nicholson et al., 2020). Psychiatric conditions, especially affective, trauma-related and/or dissociative disorders, are typically present in over 50% of most FND samples, with lifetime rates even higher (Bowman and Markand, 1996, Goldstein et al., 2020, Gray et al., 2020, Kozlowska et al., 2011, Kranick et al., 2011, Sar et al., 2004, Stone et al., 2010c). Personality disorders also exist in patients with FND at higher frequencies than that in the general population, with personality traits such as neuroticism, obsessiveness and/or emotional dysregulation commonly recognized (Ekanayake et al., 2017, Szaflarski et al., 2015).
 :::
 
-## Misdiagnosis & delayed diagnosis
+## Misdiagnosis & Delayed diagnosis
 
-Difficult condiiton to distinguish.
+Difficult condition to distinguish. Often leads to problems with:
 
-Often leads to problems with:
+-   Journey to diagnosis can be very long.
 
--   Diagnostic delay.
+    -   Recent estimate of 3.2 years (although 48% in same year).
 
--   Response to functional seizures with seizure protocols (very common, see J[ungilligens et al., 2021](https://jnnp.bmj.com/content/jnnp/early/2021/08/16/jnnp-2021-326443.full.pdf))
+-   Response to functional seizures with seizure protocols (very common, see [Jungilligens et al., 2021](https://jnnp.bmj.com/content/jnnp/early/2021/08/16/jnnp-2021-326443.full.pdf))
 
 -   Prolonged use of anti-convulsants.
 
--   Lack of access to neccersary support.
+-   Lack of access to necessary support.
+
+-   Time to receive treatment even longer.
 
 ::: notes
 Among 1210 patients diagnosed and treated as status epilepticus, 980 were aged eight years or older. Of these patients, 79 (8.1%) were discharged with a final diagnosis of pPNES. Of these, 55 (70%) were female and the mean age was 32.6 years (SD: 15.9 years), ranging from eight to 84 years.
 :::
 
-## Delayed Diagnosis
-
-Journey to diagnosis can be very long
-
-Recent estimate of 3.2 years (although 48% in same year).
-
-Time to receive treatment also very long (if ever)
-
 ## Explaining the Diagnosis
 
 {{< youtube Wz0m69y2s_0 >}}
 
-## Tips for Explaining the Diagnosis
+## Tips for Explaining the Diagnosis {background-color="white"}
 
 ::: {.callout-tip style="border: black; background: #f5f5f5 5px center/3em no-repeat;"}
 ## Tips
@@ -605,27 +581,30 @@ The problem is some of The terms you can see are far less favoured by the FND co
 
 ::: columns
 ::: {.column width="50%"}
-Much debate regarding preferred term (see [Stone et al., 2003](https://www.sciencedirect.com/science/article/pii/S1059131103000554%22), [Barron., 2019](https://www.seizure-journal.com/article/S1059-1311(19)30337-1/pdf), FND Society., 2020, & [La France., 2010](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2906405/).
-
-Be led by the individual
+Much debate regarding preferred term[^6].
 
 Communication has a significant impact on:
 
-\- Patient satisfaction
+-   Patient satisfaction.
 
-\- Acceptance of the diagnosis
+-   Acceptance of the diagnosis.
 
-\- Frequency/ severity of symptoms
+-   Frequency/severity of symptoms.
 
-\- Future engagement with healthcare services
-
-(Hall-Patch et al., 2010; McKenzie, Russell, Pelosi & Duncan, 2010)
+-   Future engagement with healthcare services (Hall-Patch et al., 2010; McKenzie, Russell).
 :::
 
 ::: {.column width="50%"}
 ![](files/img/WordsHavePower.jpg)
+
+Be led by the individual
 :::
 :::
+
+[^6]:
+    ::: {.column width="50%"}
+    (see [Stone et al., 2003](https://www.sciencedirect.com/science/article/pii/S1059131103000554%22), [Barron., 2019](https://www.seizure-journal.com/article/S1059-1311(19)30337-1/pdf), FND Society., 2020, & [La France., 2010](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2906405/).
+    :::
 
 ------------------------------------------------------------------------
 
@@ -633,20 +612,18 @@ Communication has a significant impact on:
 
 {{< youtube D2TCXSVPmJI >}}
 
-## What do patients prefer?
+## What do patients prefer? {background-color="white"}
 
+Taken from recent [Loewenberger, 2021](https://onlinelibrary.wiley.com/doi/full/10.1111/acem.14263%22) (UK service evaluation)
+
+::: columns
+::: {.column width="50%"}
 ![](files/img/terminology-preferences.png)
-
-::: aside
-Taken from recent UK service evaluation ([Loewenberger, 2021](https://onlinelibrary.wiley.com/doi/full/10.1111/acem.14263%22))
 :::
 
-## What do patients prefer?
-
-![](files/img/preferences-rating.png)
-
-::: aside
-Preference ratings are reverse scored, so high scoring items are least preferred terms.
+::: {.column width="50%"}
+![Preference ratings are reverse scored, so high scoring items are least preferred terms.](files/img/preferences-rating.png)
+:::
 :::
 
 ::: notes
@@ -669,7 +646,7 @@ This is really important because there is a history of people with FND not being
 These two conditions are different from FND And do you have some level of conscious control. While I am sure that there are a number of people with functional symptoms which may in fact be lingering, I truly believe that this is a very very very small minority.
 :::
 
-## To clarify
+## To Clarify {background-color="white"}
 
 ::: {.callout-important style="border: black; background: #f5f5f5 5px center/3em no-repeat;"}
 ## Key Points
@@ -744,7 +721,7 @@ FND also happens through this Mind-Body link.
 
 -   Recent or a long time ago.
 
--   Highly common in FND (compared to case controls, [Ludwig et al., 2018](http://dx.doi.org/10.1016/%20S2215-0366(18)30051-8))
+-   Highly common in FND (compared to case controls, [Ludwig et al., 2018](http://dx.doi.org/10.1016/%20S2215-0366(18)30051-8)).
 
 -   Does not consistently explain aetiology or onset.
 
@@ -763,18 +740,24 @@ FND also happens through this Mind-Body link.
 
 ------------------------------------------------------------------------
 
+## Rates of Stressful Life Events {background-color="white"}
+
+Taken from recent [Ludwig et al 2018](https://www.epanlab.nl/wp-content/uploads/2020/04/Ludwig-et-al.-2018.pdf).
+
 ::: callout-important
 ## Important Point
 
-Many people with FND do NOT report having experienced any trauma.
+Although Rates are high, many people with FND do NOT report having experienced any trauma.
 :::
 
-------------------------------------------------------------------------
+::: columns
+::: {.column width="50%"}
+![](files/img/Ludwig-paper.png)
+:::
 
-![](files/img/Ludwig.table.jpg)
-
-::: aside
-Taken from: [Ludwig et al 2018](http://dx.doi.org/10.1016/%20S2215-0366(18)30051-8)
+::: {.column width="50%"}
+![](files/img/Ludwig.table.png){alt="Preference ratings are reverse scored, so high scoring items are least preferred terms."}
+:::
 :::
 
 ::: notes
@@ -783,13 +766,11 @@ Our results show that the rate of childhood and adult stressful life events and 
 "13 studies that specifically ascertained that the participants had not had either severe life events or any subtype of maltreatment all found a proportion of patients with functional neurological disorder reporting no stressor."
 :::
 
-## Professional Beliefs
+## Professional Beliefs {background-color="white"}
+
+Taken from [Whitehead et al., 2012](https://core.ac.uk/download/pdf/81139313.pdf)
 
 ![](files/img/suspect-causes.png)
-
-::: aside
-Taken from Whitehead et al., 2012
-:::
 
 ------------------------------------------------------------------------
 
@@ -1300,4 +1281,3 @@ physical burden, chronic stress, unable or unwilling to recognise or respond.
 ::: {style="text-align: center; padding: 200px 0;"}
 ## Thanks for Listening !
 :::
-
