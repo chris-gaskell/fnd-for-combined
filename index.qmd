@@ -7,7 +7,7 @@ format:
     smaller: false
     scrollable: true
     incremental: false
-    theme: [serif, custom.scss]
+    theme: [simple, custom.scss]
     title: "Functional Neurological<br> Disorders"
     subtitle: "Teaching for Combined NHS Foundation Trust"
     preview-links: false
@@ -117,11 +117,12 @@ Video by Massachusetts General Hospital
 
     -   Umbrella Diagnosis :umbrella:
 
--   *FS* = Functional Seizure
+**Sub-types include:**
 
--   *NEAD* = Non Epileptic Attack Disorder
-
--   FMD = Functional Movement Disorder
+-   *FS* = Functional Seizures (aka *NEAD* \[Non Epileptic Attack Disorder\] and others).
+-   FMD = Functional Movement Disorder.
+-   Functional Stroke.
+-   And many others.
 
 ::: notes
 \- Brief explanation. epilepsy but without the same underlying electrical processes. Different brain structural changes.
@@ -151,13 +152,13 @@ Video by Massachusetts General Hospital
 
 ## Functional seizures
 
--   One manifestation or constellation of FND.
+-   One manifestation / constellation of FND.
 
 -   Within DSM-V classified (conversion disorder/functional neurological symptom disorder).
 
--   "Functional" referring to an impairment of normal functioning.
+-   **"Functional"** referring to an impairment of normal functioning.
 
--   Disruption of usually integrated functions of consciousness, memory, identity, or perception (Goldstein et al, 2000)
+-   Disruption of usually integrated functions of consciousness, memory, identity, or perception (Goldstein et al., 2000).
 
 -   Temporary loss of **control and/or awareness**.
 
@@ -301,7 +302,7 @@ Taken from [Raynor & Baslet (2021)](https://www.sciencedirect.com/science/articl
 :::
 :::
 
-[^1]: In no way related to the behavioural notion of 'functional analysis'
+[^1]: Not related to the behavioural notion of 'functional analysis'
 
 [^2]: See excellent video by [John Stone](https://www.youtube.com/watch?v=ersm5f_0LVI&t=21s%22) for more on this.
 
@@ -448,12 +449,12 @@ It is difficult to accurately quantify prevalence rates due to diagnostic delay 
     -   White and low SES
 
 ::: aside
-For a detailed account of risk and aetiological factor see [Popkirov et al., (2019)](https://onlinelibrary.wiley.com/doi/pdf/10.1684/epd.2019.1107)
+For a detailed account of risk and aetiological factors see [Popkirov et al., (2019)](https://onlinelibrary.wiley.com/doi/pdf/10.1684/epd.2019.1107)
 :::
 
 ## Risk Factors?
 
--   **Psychiatric co-morbidity**
+-   **Psychiatric co-morbidity:**
 
     -   Anxiety and depression.
 
@@ -461,7 +462,7 @@ For a detailed account of risk and aetiological factor see [Popkirov et al., (20
 
     -   PTSD, Trauma.
 
--   **Health co-morbidity**
+-   **Health co-morbidity:**
 
     -   Pain & Fatigue.
 
@@ -489,7 +490,7 @@ For a detailed account of risk and aetiological factor see [Popkirov et al., (20
 
 ## Misdiagnosis & Delayed diagnosis
 
-Difficult condition to distinguish. Often leads to problems with:
+Difficult at times to distinguish from other conditions. Often leads to problems with:
 
 -   Journey to diagnosis can be very long.
 
@@ -649,7 +650,7 @@ These two conditions are different from FND And do you have some level of consci
 ## To Clarify {background-color="white"}
 
 ::: {.callout-important style="border: black; background: #f5f5f5 5px center/3em no-repeat;"}
-## Key Points
+## Key Points From Part 1
 
 -   FND is a real condition.
 
@@ -703,6 +704,22 @@ FND also happens through this Mind-Body link.
 -   This relationship between the mind and body is in a small part A small illustration of what can happen in NEAD. In thinking about any NEAD and also in treating it we are constantly thinking about this mind body link.
 :::
 
+## Autonomic Reactions
+
+Fight/flight/freeze response - evolutionary based fear response that is adaptive for survival
+
+Freezing is one of the main defensive threat reactions across species (Roelofs, 2017; Rockliffe-Fidler & Mark Willis, 2018)
+
+![](files/img/fight-flight-freeze.jpg)
+
+\- fight-flight theory. sympathetic nervous system.
+
+\- parasymathetic branch of the NS.
+
+\- Sometimes it can be an adaptive response.
+
+\- A means of responding to a threat or a trigger. mammals.
+
 ## Explanatory Models
 
 -   Trauma & conversion.
@@ -744,20 +761,20 @@ FND also happens through this Mind-Body link.
 
 Taken from recent [Ludwig et al 2018](https://www.epanlab.nl/wp-content/uploads/2020/04/Ludwig-et-al.-2018.pdf).
 
-::: callout-important
-## Important Point
-
-Although Rates are high, many people with FND do NOT report having experienced any trauma.
-:::
-
 ::: columns
 ::: {.column width="50%"}
-![](files/img/Ludwig-paper.png)
+![](files/img/Ludwig-paper.jpeg)
 :::
 
 ::: {.column width="50%"}
 ![](files/img/Ludwig.table.png){alt="Preference ratings are reverse scored, so high scoring items are least preferred terms."}
 :::
+:::
+
+::: callout-important
+## Important Point
+
+Although Rates are high, many people with FND do NOT report having experienced any trauma.
 :::
 
 ::: notes
@@ -774,11 +791,11 @@ Taken from [Whitehead et al., 2012](https://core.ac.uk/download/pdf/81139313.pdf
 
 ------------------------------------------------------------------------
 
-![](files/img/trauma-models.png)
+## Trauma & FND Onset {background-color="white"}
 
-::: aside
-Taken from ([Keynejad, 2021](https://jnnp.bmj.com/content/90/7/813))
-:::
+Taken from [Keynejad, 2021](https://jnnp.bmj.com/content/90/7/813)
+
+![](files/img/trauma-models.png)
 
 ::: notes
 \- This is a framework of the different ways that people can experience trauma, and how that can have an impact upon whether or not a person develops functional symptoms.
@@ -790,35 +807,15 @@ In the top left quadrant you have a scenari whereby you might have a biological 
 \- even people with mild biological risk can develop it.
 :::
 
-## Bio-Psycho-Social Model
+## BioPsychoSocial Model {background-color="white"}
 
-![](files/img/formulation.png)
+Taken from Reuber 2009
 
-::: adise
-Taken from [Reuber, 2009](https://pubmed.ncbi.nlm.nih.gov/19853215/)
-:::
+![](files/img/formulation.png){fig-align="center" width="720"}
 
-## Bio-Psycho-Social Model
+Taken from Nicholson 2020
 
 ![](files/img/3ps.png)
-
-## Autonomic Reactions
-
-Fight/flight/freeze response - evolutionary based fear response that is adaptive for survival
-
-Freezing is one of the main defensive threat reactions across species (Roelofs, 2017; Rockliffe-Fidler & Mark Willis, 2018)
-
-![](files/img/fight-flight-freeze.jpg)
-
-::: notes
-\- fight-flight theory. sympathetic nervous system.
-
-\- parasymathetic branch of the NS.
-
-\- Sometimes it can be an adaptive response.
-
-\- A means of responding to a threat or a trigger. mammals.
-:::
 
 ## Integrated Cognitive model
 
@@ -852,16 +849,42 @@ Model proposed by Reuber & Brown.
 \- However, the ICM can accommo- date the clinical and psychological heterogeneity evident from so many of the studies discussed above, while indicating how factors such as previous traumatic experiences, current life adversity and physical health problems may contribute to PNES. Importantly, however, none of these factors is essential for the development or maintenance of the disorder, even though they may be of central importance in specific cases.
 :::
 
-## Integrated Cognitive Model
+## Integrated Cognitive Model {background-color="white"}
+
+Taken from [Anzellotti et al., 2020](https://www.frontiersin.org/articles/10.3389/fneur.2020.00461/full) (Based on Reuber & Brown)
+
+![](files/img/ICM.png)
+
+## Predictive Processing Errors {background-color="white"}
+
+{{< youtube UrY69Y-OFZY >}}
+
+## Integrated Cognitive Model {background-color="white"}
+
+Taken from [Reuber & Brown (2017)](https://www.seizure-journal.com/article/S1059-1311(16)30222-9/fulltext)
 
 ![](files/img/icm2.jpg)
 
+Taken from [Popkirov et al (2019)](https://onlinelibrary.wiley.com/doi/pdf/10.1684/epd.2019.1107)
+
 ![](files/img/icm.jpg)
 
-## Emotional Processing Model
+## Emotional Processing Model {background-color="white"}
+
+Taken from: [Drane et al (2020).](https://www.asuemotionlab.com/wp-content/uploads/Pathophysiology_CNS_Spectrums_2020.pdf)
 
 ::: columns
 ::: {.column width="50%"}
+![](files/img/emotion-processing-paper.png){width="700" height="550"}
+:::
+
+::: {.column width="50%"}
+![](files/img/emotion-processing.png){alt="Preference ratings are reverse scored, so high scoring items are least preferred terms."}
+:::
+:::
+
+## Emotional Processing Model
+
 -   Based on new insights (emotion processing and imaging)
 
 -   Recently forwarded by Drane et al., (2020)
@@ -871,12 +894,16 @@ Model proposed by Reuber & Brown.
 -   Begins to explain the pathophysiology of FND.
 
 -   Difficulty can break down across various areas.
-:::
 
-::: {.column width="50%"}
-![](files/img/emotion-processing.png)
-:::
-:::
+-   Prediction error are central to maintenance.
+
+-   Higher arousal states more akin to paroxysmal symptoms.
+
+-   Difficulties with emotion processing (e.g., panic without panic).
+
+-   Difficulties with interception (e.g., seeming but but feeling anxious).
+
+-   Helps to explain patients who don't identify as distressed (e.g., anx/dep).
 
 ::: notes
 The different symptoms of FND arise from one or a combination of specific abnormal constructs. For example, paroxysmal functional movements are perceived as involuntary by patients due to abnormalities in the construct of agency (Figure 1B). Other constructs in FND include impairments in emotion processing, attention, interoception, predictive processing/inference, and their interactions.
@@ -908,26 +935,6 @@ The different symptoms of FND arise from one or a combination of specific abnorm
     -   Over time, when the observed information deviates from what is predicted, the generative model is updated through learning.
 :::
 
-## Emotional Processing Model
-
-::: columns
-::: {.column width="50%"}
--   Prediction error are central to maintenance.
-
--   Higher arousal states more akin to paroxysmal symptoms.
-
--   Difficulties with emotion processing (e.g., panic without panic).
-
--   Difficulties with interception (e.g., seeming but but feeling anxious).
-
--   Helps to explain patients who don't identify as distressed (e.g., anx/dep).
-:::
-
-::: {.column width="50%"}
-![](files/img/emotion-processing.png)
-:::
-:::
-
 ::: notes
 \- panic without panic: Goldstein and Mellers, for example, found that patients with PNES reported more somatic symptoms of anxiety during their attacks than patients with epilepsy, although they did not seem to experience subjectively higher levels of anxiety during their seizures.
 
@@ -936,56 +943,123 @@ The different symptoms of FND arise from one or a combination of specific abnorm
 To perform allostasis efficiently, the system needs to anticipate, sense and integrate signals originating from within the body made available by interoception: the brain's moment-to-moment modelling of the internal physiological state of the body. The interoceptive model works in the service of allostasis.
 :::
 
-## Predictive Processing
-
-{{< youtube UrY69Y-OFZY >}}
-
 ::: {style="text-align: center; padding: 200px 0;"}
 # Treatment Approaches {background-color="#57342d"}
 :::
 
 ## Treatments
 
-Good news ! There is robust evidence that FND can be successfully treated.
+### Good news:
 
-Bad news ! provisions for treating are patchy and unclear
+\- Growing evidence that FND can be successfully treated.
+
+### Bad news:
+
+\- Provisions for treating are patchy and unclear.
 
 ## What treatment is indicated?
 
-It depends.
+-   It depends on the person.
 
-Generally speaking FND requires treatment from an MDT
+-   Heterogeneity requires idiosyncratic approach.
 
+-   For many treatment require multi-professions.
+
+-   Clinicians with familiarity in FND.
+
+::: notes
 \- There will often (but not always) be a role for psychology in targeting behavioural cycles that maintain the symptoms (e.g., hyper vigilance, negative thoughts, safety behaviours).
 
 \- Input from physio, OT, SaLT should be appropriately selected based on symptom profile.
 
 \- Very services available with multi-disciplinary input.
+:::
+
+## NeuroSymptoms: Treatment Formulator {background-color="white"}
+
+Support patients to use the [newly developed tool](https://formulation.neurosymptoms.org) from neurosymptoms.org
+
+![](files/img/formulator.png)
 
 ## Health provision
 
-Intradisciplinary: working within a single discipline.
+Need to move away from services only being able to provide single/multi disciplinary approaches.
 
-Crossdisciplinary: viewing one discipline from the perspective of another.
+[![Take from https://www.totalcommunication.com](files/img/mdt-input.png)](https://www.totalcommunication.com.sg/post/transdisciplinary-approach-what-does-it-mean)
 
-Multidisciplinary: people from different disciplines working together, each drawing on their disciplinary knowledge.
+::: notes
+**Intradisciplinary:** working within a single discipline.
 
-Interdisciplinary: integrating knowledge and methods from different disciplines, using a real synthesis of approaches.
+**Crossdisciplinary:** viewing one discipline from the perspective of another.
 
-Transdisciplinary: creating a unity of intellectual frameworks beyond the disciplinary perspectives.
+**Multidisciplinary:** people from different disciplines working together, each drawing on their disciplinary knowledge.
 
-## What about seizures?
+**Interdisciplinary:** integrating knowledge and methods from different disciplines, using a real synthesis of approaches.
 
-Perhaps suited to psychology? the paroxysmal role fairly well suited to psychological interventions (e.g., BT, CBT).
+**Transdisciplinary:** creating a unity of intellectual frameworks beyond the disciplinary perspectives.
+:::
 
-## What is the evidence?
+## Role of Psychology
 
-\- Meta-analystic research shows psychological treatments reduce FS frequency/
+-   Suited to help all FND variants (but won't be neccersary for all).
 
-\- More recently RCTs shed some doubt; frequency less amenable to change (but perhaps other outcomes more amenable)
+-   Co-morbidities needs to be accounted for.
 
-\- Lots of problems with seizure frequency as the primary outcome measure
+-   Treating underlying and potentially longstanding distress (e.g., anxiety, depression, trauma).
 
+![](files/img/smoke-not-fire.jpg){fig-align="center" width="400"}
+
+::: notes
+the paroxysmal role fairly well suited to psychological interventions (e.g., BT, CBT).
+:::
+
+## The Evidence Base?
+
+-   Psychology
+
+    -   Few RCTs have been done in this area.
+
+    -   Systematic reviews support use of psychological treatments in FND [(Gutkin et al., 2021)](https://jnnp.bmj.com/content/jnnp/92/1/36.full.pdf).
+
+    -   Meta-analytic support for seizure reduction [(Carlson & Perry, 2017)](https://pubmed.ncbi.nlm.nih.gov/28063373/).
+
+    -   More recent major RCT found no significant change in seizure frequency [(CODES, 2020)](https://www.thelancet.com/journals/lanpsy/article/PIIS2215-0366(20)30128-0/fulltext).
+
+-   Neuro Stimulation
+
+    -   Small but emerging evidence base ([Gonsalvez et al., 2021](https://www.sciencedirect.com/science/article/pii/S2589986421000757) for a review).
+
+-   Physiotherapy
+
+    -   Preliminary feasibility for physiotherapy ([Maggio et al., 2019](https://neuro.psychiatryonline.org/doi/full/10.1176/appi.neuropsych.19030068))
+
+::: notes
+-   This body of evidence suggests that neurocircuitry-based interventions, such as non-invasive brain stimulation techniques (NIBS), may also represent an effective therapeutic option for patients with FND.
+:::
+
+## Problems with Measuring Seizures {background-color="white"}
+
+::: columns
+::: {.column width="50%"}
+-   Not always amenable to change [(CODES, 2020)](https://www.thelancet.com/journals/lanpsy/article/PIIS2215-0366(20)30128-0/fulltext).
+
+-   Hard to synthesize results due to heterogeneity of frequency.
+
+-   Hard to accurately measure.
+
+-   Hard to attribute importance of weighting.
+
+-   Seizures may not be the primary problem.
+
+-   Patient may have other things they want to change.
+:::
+
+::: {.column width="50%"}
+![](files/img/codes.png)
+:::
+:::
+
+::: notes
 -   Hard to reliable track.
 
 -   Unusual distribution (which doesn't always reflect function).
@@ -1001,46 +1075,35 @@ Perhaps suited to psychology? the paroxysmal role fairly well suited to psycholo
 -   Temporal variability.
 
 -   Safety behaviours.
-
-Perhaps need to pay more attention to other things that may be improving during treatment.
-
-Work is still to be done on developing a core set of outcome measure acceptable and valid for routine clinical practice...
-
-For now it is still important to use measures.
-
-![](files/img/outcome.domains.jpg)
-
-::: aside
-Taken from [Nicholson (2020)](https://neuro.psychiatryonline.org/doi/full/10.1176/appi.neuropsych.19060128)
 :::
 
-------------------------------------------------------------------------
+## What to Measure? {background-color="white"}
 
-![](files/img/moderator.table.jpg)
+-   Not just about the core FND symptoms.
 
-::: aside
-Preliminary findings being prepared for publication
-:::
+-   7+ outcome measures used per study (Gaskell et al., unpublished).[^7]
 
-------------------------------------------------------------------------
+-   FND core outcome battery and specific outcome measures still lacking (for now..)
 
-![](files/img/forest.png)
+[^7]: Being prepared for publication.
 
-::: aside
+Taken from [Nicholson (2020)](https://neuro.psychiatryonline.org/doi/abs/10.1176/appi.neuropsych.19060128)
+
+![](files/img/outcome.domains.jpg){alt="Taken from Nicholson (2020)"}
+
+## Change Across Other Measures {background-color="white"}
+
+Does psychological treatments work for other outcomes?
+
+And under what Conditions?
+
+![Preliminary results being prepared for publication.](files/img/forest.png)
+
+::: notes
 Preliminary findings being prepared for publication.
 
 No evidence yet for schema therapy, mentalisation or CAT
 :::
-
-## Evidence for other treatments
-
-### Neuro-stimulation
-
--   Small but emerging evidence base ([See](https://www.sciencedirect.com/science/article/pii/S2589986421000757) for a review).
-
-#### Physiotherapy
-
--   [Feasibility trial](https://neuro.psychiatryonline.org/doi/full/10.1176/appi.neuropsych.19030068)
 
 ## Acceptability
 
@@ -1052,17 +1115,29 @@ No evidence yet for schema therapy, mentalisation or CAT
 
 -   Doesn't always fit with patient view of difficulties.
 
-## Techniques that can help
+## How do Treatments Work?
 
--   CBT and psychoeducation to help in the moment.
+-   Multi-faceted.
 
--   Trauma focused work?
+-   Relevant mechanisms of change across all therapeutic approaches.
 
--   Exposure?
+-   Approach should be tailored (see [Myers et al., 2021](https://reader.elsevier.com/reader/sd/pii/S2589986421000526?token=FBD7726AA04740D1B1F13FC0941A51D721F2B10B05135195FFD8165A8319F9015EF5686728A80EB1EA21793DF05A8CA5&originRegion=eu-west-1&originCreation=20221102074041) for a guide).
 
--   Analytic treatments.
+-   Psychoeducation crucial.
 
--   Windows of tolerance.
+    -   Recognising risk factors.
+
+    -   Heightening interoceptive capacity.
+
+    -   Strategies for circumventing (e.g., breathing, grounding)
+
+-   Evidence that CBT helps in the short term.
+
+    -   Targeting catastrophic thinking.
+
+-   Trauma focused work important IF needed.
+
+    -   Big questions about who should provide this.
 
 ------------------------------------------------------------------------
 
@@ -1072,11 +1147,7 @@ No evidence yet for schema therapy, mentalisation or CAT
 
 ![](files/img/amber.png)
 
-![](files/img/red.png)
-
-------------------------------------------------------------------------
-
-## What can cause a person to go into/ stay in the amber zone?
+### What can cause a person to go into/ stay in the amber zone?
 
 -   Physical stress in the body (e.g., injury, illness, pain).
 
@@ -1088,74 +1159,31 @@ No evidence yet for schema therapy, mentalisation or CAT
 
 For many people, it is not one big thing that has caused them to go into and stay in the amber zone. It is often a combination of factors.
 
-## Notes from Richard Brown lecture
-
-\- 1 in 6 people.
-
-\- incredibly disabling.
-
-\- overlap among people with neuro disease (e.g., 20%).
-
-\- negative results/findings may inform but cannot be the sole basis for a diagnosis.
-
-\- incongeurty with other more well known neurological variants.
-
-\- diagnosis should be delivered by neurologist but reinforced by all.
-
-\- proper diagnosis can lead to cessation fs \>40%. Duncan et al 2011 \[new onset\]
-
-\- Prognosis. 7 year FU. about 40% the same or worse than at assessment. Not much known about prognosis.
-
-\- complex condition involving many brain areas.
-
-\- basic familiarity with 3 ps of FND. Risk; triggers; perpetuating;
-
-\- all 3 have biopsychosocial aspects to them.
-
-\- idiosyncatric formulation
-
-Nicholson et al 2020 for 3 ps.
-
-mention the common triggers;
-
-miinstepretation of signals. interprets abnormal signals as abnormal.
-
-Nocebo.
-
-common scenairios on 25 minutes.
-
-different prioritisation of internal signals. toilet. high heels.
-
-learn from experience \> bodies expectation.
-
-brain is reliant on expectation and belief.
-
-less movement. more attention paid when attention is made which are ordinarily automatic.
-
-physical burden, chronic stress, unable or unwilling to recognise or respond.
-
-### Other Approaches
-
--   Pharmacological treatments not effective.
+------------------------------------------------------------------------
 
 ## What else can help
 
-![](files/img/wristband.png) ![](files/img/wristband)
+-   Good medical advice
+
+-   Guidance on how to respond to seizures.
+
+-   Support on how to recognise (or distinguish from epileptic seizures).
+
+![](files/img/wristband.png)
 
 ![](files/img/cards.png)
 
--   Is this NEAD?
--   Not receiving incorrect treatment (needs guidance from neurology)
--   Do not attempt to make a differential diagnosis. If information about the diagnosis is not available, follow epilepsy guidelines.
-
-## Managing functional Seizure
+## Managing Functional Seizures
 
 -   Changes might look and feel uncomfortable/ unpleasant but are not causing immediate harm.
 -   Brain activity remains the same.
 -   Having an episode is not caused by and does not cause long-term internal damage.
 -   Main concern is risk of falls.
 
-## Tips for acute management
+## Tips for Acute Management {background-color="white"}
+
+::: {.callout-tip style="border: black; background: #f5f5f5 5px center/3em no-repeat;" collapse="true"}
+## Tips
 
 -   Maintain a calm, quiet environment
 
@@ -1176,9 +1204,14 @@ physical burden, chronic stress, unable or unwilling to recognise or respond.
 -   Find out if there is someone who can help them to get home/ to a safe place?
 
 -   Provide support to friends/ family.
+:::
 
-## Do Not
+## Tips for Acute Management {background-color="white"}
 
+::: {.callout-important style="border: black; background: #f5f5f5 5px center/3em no-repeat;" collapse="true"}
+## Avoid
+
+-   Do not attempt to make a differential diagnosis. If information about the diagnosis is not available, follow epilepsy guidelines.
 -   Give me medication.
 -   Touch me (unless to protect my head).
 -   Crowd or stand over me.
@@ -1199,10 +1232,9 @@ physical burden, chronic stress, unable or unwilling to recognise or respond.
     -   "You can control this"
 
     -   "Stop doing this"
+:::
 
-## Caution
-
-::: notes
+::: {.callout-warning collapse="true"}
 -   People with NEAD may still be able to hear (unlike NEAD
 
 -   idea is that the person gets to the place where they can manage it themselves (not have to go to hospital).
