@@ -18,7 +18,7 @@ format:
     footer: "FND for North Staffs Combined Healthcare"
     transition: slide
     background-transition: fade
-    transition-speed: fast
+    transition-speed: slow
     footnotes-hover: true
     filters: 
       - designmode
@@ -116,14 +116,14 @@ Video by Massachusetts General Hospital
 
 ## Terminology?
 
--   *FND* = Functional Neurological Disorder
+-   ***FND*** = Functional Neurological Disorder.
 
-    -   Umbrella Diagnosis :umbrella:
+    -   Umbrella Diagnosis :umbrella:.
 
 **Sub-types include:**
 
--   *FS* = Functional Seizures (aka *NEAD* \[Non Epileptic Attack Disorder\] and others).
--   FMD = Functional Movement Disorder.
+-   *FS*= Functional Seizures (aka *NEAD* \[Non Epileptic Attack Disorder\] and others).
+-   **FMD** = Functional Movement Disorder.
 -   Functional Stroke.
 -   And many others.
 
@@ -155,7 +155,7 @@ Video by Massachusetts General Hospital
 
 ## Functional Seizures
 
--   One manifestation / constellation of FND.
+-   One manifestation/constellation of FND.
 
 -   Within DSM-V classified (conversion disorder/functional neurological symptom disorder).
 
@@ -285,7 +285,7 @@ Taken from [Raynor & Baslet (2021)](https://www.sciencedirect.com/science/articl
 -   1980s: Hysteria retired as a term within the US.
 :::
 
-## What do we mean by functional?
+## What Do We Mean By Functional?
 
 ::: columns
 ::: {.column width="50%"}
@@ -315,7 +315,7 @@ Taken from [Raynor & Baslet (2021)](https://www.sciencedirect.com/science/articl
 -   What organic symptoms are not in some way mediated by psychological processes? and what repeated motor patterns or neuronal activity can not lead to structural change?
 :::
 
-## The Case for an Involuntary Condition
+## The Case For An Involuntary Condition
 
 ::: columns
 ::: {.column width="50%"}
@@ -347,7 +347,7 @@ Compared to brain imaging in other neuropsychiatric disorders, FND research rema
 # Diagnosis, Prevalence & Terminology {background-color="#57342d"}
 :::
 
-## Who Diagnoses?
+## Who Is Involved in Diagnosis?
 
 Usually by a Neurologist or Neuropsychiatrist.
 
@@ -355,11 +355,9 @@ Assessments can include:
 
 -   Clinical history
 
--   Videos
+-   Videos & subjective experience
 
 -   Objective signs
-
--   Subjective experience
 
 -   EEG (electroencephalogram)
 
@@ -372,18 +370,22 @@ Any professional who potentially comes into contact with patients has a potentia
 This is everyone!
 
 ::: notes
-One of the key dilemmas facing this field is the obstacles to prompt and accurate diagnosis. Many professionals are simply unfamiliar with this condition, or maybe somewhat familiar but I'm confident to make accurate diagnosis.
+-   **Key dilemma =** Prompt and accurate diagnosis.
 
-What's more it is, or can be very difficult to distinguish between epilepsy and functional seizures, and therefore it may need the specialist investigation of a highly specialist neurologist.
+-   **Clinicians unfamiliar =** reduced sign posting and (confidence in) diagnosis.
 
-May include the patient having to come to hospital for an inpatient admission so that they can be observed having seizures during the process known as video toiletry.
+-   Difficult to distinguish between conditions (e.g., epilepsy and functional seizures) and may need specialist investigation of a neurologist with experience in FND.
 
-Because of these dilemmas in reaching a diagnosis it is unfortunately common for patients to go a number of years before receiving a diagnosis.
+-   **Video-telemetry:** inpatient admission so that they can be observed having seizures during the process known as video toiletry.
+
+-   Dilemmas = delay.
 :::
 
 ##  {background-color="white"}
 
 ::: callout-important
+## Important Notes around Diagnosis in FND
+
 -   Based on positive clinical signs/symptoms[^5].
 
 -   Internal inconsistency (reversibility) and/or to a lesser extent incongruency with known patterns of structural neurological disease.
@@ -397,11 +399,37 @@ Because of these dilemmas in reaching a diagnosis it is unfortunately common for
 
 [^5]: Helpful articles on positive symptoms include [Aybeck, 2022](%22https://drive.google.com/file/d/1YZF-9aHuYeLkgAErzHXx4F-I-rC_2lNq/view) & [Finkelstein et al (2021)](https://onlinelibrary.wiley.com/doi/full/10.1111/acem.14263)
 
+::: notes
+-   For too often been a diagnosis of exclusion
+
+-   There is clearly a need for careful examination and ruling out of other conditions HOWEVER this should not be the default position.
+
+-   Inconsistent symptoms (mediated by other mechanisms: cognitive, emotional, physical).
+
+    -   Example = recent man with tics.
+
+-   Trauma not necessary (high potential to cause harm).
+
+-   Do not dismiss. One of the most powerful thing I hear from patient with FND is the stories of how they have been left and treated by health clinicians.
+
+    -   One of the things that repeatedly comes up is how new symptoms suddenly get dismissed when there is a dx of FND in the care notes.
+:::
+
 ## Symptoms: Functional Movement {background-color="white"}
 
 Taken from: FND in the emergency department [Finkelstein et al (2021)](https://onlinelibrary.wiley.com/doi/full/10.1111/acem.14263)
 
 ![](files/img/Stone-movement-table.png){fig-align="center" width="1200" height="1200"}
+
+## Symptoms: Functional Movement {background-color="white"}
+
+{{< youtube BEtLcfikzPI >}}
+
+::: notes
+-   Hoover test.
+
+-   Incongruence. Not about trying to catch them out. This is FND. Complex brain network disorder impacting upon aspects of attention, autonomy and emotion processing.
+:::
 
 ## Symptoms: Functional Seizures {background-color="white"}
 
@@ -409,7 +437,7 @@ Taken from: FND in the emergency department [Finkelstein et al (2021)](https://o
 
 ![](files/img/Stone-NEAD-Table.png){width="1200" height="1200"}
 
-## How common?
+## How Common Is FND?
 
 **FND Prevalence:** 50/100000 in the population (Carson, 2016).
 
@@ -421,15 +449,21 @@ Taken from: FND in the emergency department [Finkelstein et al (2021)](https://o
 
 -   Estimated 20,000 people in the UK.
 
--   8-12% of new presentations to seizure clinics [(Angus-Leppan, 2008)](href=%22https://www.sciencedirect.com/science/article/pii/S1059131108000022)
+-   8-12% of new presentations to seizure clinics [(Angus-Leppan, 2008)](href=%22https://www.sciencedirect.com/science/article/pii/S1059131108000022).
 
--   11% of seizures presenting to emergency services (Dickson et al., 2017)
+-   11% of seizures presenting to emergency services (Dickson et al., 2017).
 
 ::: aside
-It is difficult to accurately quantify prevalence rates due to diagnostic delay and patients being lost to follow-up.
+-   It is difficult to accurately quantify prevalence rates.
 :::
 
-## Risk Factors?
+::: notes
+-   It is difficult to accurately quantify prevalence rates due to diagnostic delay and patients being lost to follow-up.
+
+-   May not seem common; but patients frequently attend to A&E and psychology services so I will guarantee that pretty much everyone will work with someone at somepoint.
+:::
+
+## What Are The Risk Factors For FND?
 
 -   **Age:**
 
@@ -445,7 +479,7 @@ It is difficult to accurately quantify prevalence rates due to diagnostic delay 
 
 -   **Epilepsy:** High rate of co-morbidity.
 
--   **Learning Disabilities:** High rate of co-morbidity.
+-   **Learning Disabilities:** High rate of co-morbidity ([Rawlings et al., 2021](https://www.sciencedirect.com/science/article/pii/S1059131121002521)).
 
 -   **Demographics:**
 
@@ -455,7 +489,33 @@ It is difficult to accurately quantify prevalence rates due to diagnostic delay 
 For a detailed account of risk and aetiological factors see [Popkirov et al., (2019)](https://onlinelibrary.wiley.com/doi/pdf/10.1684/epd.2019.1107)
 :::
 
-## Risk Factors?
+::: notes
+**Age:**
+
+-   Modal age of onset is 16. mean and median = 28.
+
+-   Largely seen as a female condition although this effect reduces in late adulthood.
+
+-   Generally consistent with Hansen 2020 pediatric paper which found that across pediatric populations incidence rates is highest in 16-17 years old.
+
+**Epilepsy:**
+
+-   Comorbid epilepsy and psychogenic nonepileptic seizures (PNES) occur in 12--22% of cases and the diagnosis of both simultaneous disorders is challenging.
+
+-   Approx 22% in a large scale meta-analysis.
+
+LD:
+
+-   A median rate of 9.4% of comorbid ID was found across eleven PNES cohorts (Rawlings et al., 2021).
+
+Demographics:
+
+-   over 50% of all patients live in areas categorised within the highest
+    deprivation quintile and over two- thirds of patients being unemployed at the
+    point of seeking treatment for PNES (Goldstein *et al.*, 2019).
+:::
+
+## What Are The Risk Factors For FND?
 
 -   **Psychiatric Co-morbidity:**
 
@@ -482,24 +542,29 @@ For a detailed account of risk and aetiological factor see [Popkirov et al., (20
 :::
 
 ::: notes
-\- Age: Generally consistent with Hansen 2020 pediatric paper which found that across pediatric populations incidence rates is highest in 16-17 years old.
+-   **PTSD:** 38%
 
-\- Gender: Greater female preponderance in adolescence and adults however this seems to become less evident in older people.
-
-\- Trauma: Lots of people who have not experienced trauma.
-
--   Additional physical and mental health diagnoses in FND, at least as currently defined, are the norm rather than an exception (Nicholson et al., 2020). Psychiatric conditions, especially affective, trauma-related and/or dissociative disorders, are typically present in over 50% of most FND samples, with lifetime rates even higher (Bowman and Markand, 1996, Goldstein et al., 2020, Gray et al., 2020, Kozlowska et al., 2011, Kranick et al., 2011, Sar et al., 2004, Stone et al., 2010c). Personality disorders also exist in patients with FND at higher frequencies than that in the general population, with personality traits such as neuroticism, obsessiveness and/or emotional dysregulation commonly recognized (Ekanayake et al., 2017, Szaflarski et al., 2015).
+```{=html}
+<!-- -->
+```
+-   Norm rather than an exception (Nicholson et al., 2020).
+-   **Psychiatric conditions:** especially affective, trauma-related and/or dissociative disorders, are typically present in over 50% of most FND samples, with lifetime rates even higher.
+-   **Personality disorders:** higher rate than the general population. Particularly EUPD and cluster C presentations.
+-   **Epilepsy surgery:** New onset following surgery (upto 9%).
+-   **TBI:** Rates vary a lot. Pooled frequency of about 42%
 :::
 
 ## Misdiagnosis & Delayed diagnosis
 
-Difficult at times to distinguish from other conditions. Often leads to problems with:
+Difficult at times to distinguish from other conditions.
+
+Often leads to problems with:
 
 -   Journey to diagnosis can be very long.
 
-    -   Recent estimate of 3.2 years (although 48% in same year).
+    -   Recent estimate of 3.2 years.
 
--   Response to functional seizures with seizure protocols (very common, see [Jungilligens et al., 2021](https://jnnp.bmj.com/content/jnnp/early/2021/08/16/jnnp-2021-326443.full.pdf))
+-   Response to functional seizures with seizure protocols (very common, see [Jungilligens et al., 2021](https://jnnp.bmj.com/content/jnnp/early/2021/08/16/jnnp-2021-326443.full.pdf)).
 
 -   Prolonged use of anti-convulsants.
 
@@ -508,7 +573,9 @@ Difficult at times to distinguish from other conditions. Often leads to problems
 -   Time to receive treatment even longer.
 
 ::: notes
-Among 1210 patients diagnosed and treated as status epilepticus, 980 were aged eight years or older. Of these patients, 79 (8.1%) were discharged with a final diagnosis of pPNES. Of these, 55 (70%) were female and the mean age was 32.6 years (SD: 15.9 years), ranging from eight to 84 years.
+-   Among 1210 patients diagnosed and treated as status epilepticus about 79 (8.1%) were discharged with a final diagnosis of pPNES (mean age = 32.6 years; 8 to 84 years).
+
+-   (although 48% in same year).
 :::
 
 ## Explaining the Diagnosis
@@ -532,7 +599,7 @@ Among 1210 patients diagnosed and treated as status epilepticus, 980 were aged e
 
 -   Name the condition.
 
--   Provide a brief mechanistic explanation (e.g., "brain becomes overloaded and shuts down")
+-   Provide a brief mechanistic explanation (e.g., "brain becomes overloaded and shuts down").
 
 -   Foster a hopeful sentiment of improvement (eg, pointing out that treatments are available).
 :::
@@ -547,21 +614,21 @@ Taken from [Aybek et al (2022)](https://drive.google.com/file/d/1YZF-9aHuYeLkgAE
 ::: {.column width="50%"}
 Many terms have been used:
 
--   Non-epileptic attacks
+-   Non-epileptic attacks.
 
--   Psychogenic seizures
+-   Psychogenic seizures.
 
--   Psychogenic non-epileptic seizures (PNES)
+-   Psychogenic non-epileptic seizures (PNES).
 
--   Dissociative seizures
+-   Dissociative seizures.
 
--   Conversion disorder
+-   Conversion disorder.
 
--   Functional seizures
+-   Functional seizures.
 
--   Psychological seizures
+-   Psychological seizures.
 
--   Pseudo-seizures
+-   Pseudo-seizures.
 :::
 
 ::: {.column width="50%"}
@@ -636,18 +703,16 @@ The bar chart that you can see shows the preference ratings of the commonly used
 
 ## Not to be Confused With
 
-**Malingering:** Deliberately manufacturing symptoms for material gain e.g. Money
+**Malingering:** Deliberately manufacturing symptoms for material gain e.g. Money.
 
-**Factitious Disorder:** Deliberately manufacturing symptoms for emotional gain e.g. Attention
+**Factitious Disorder:** Deliberately manufacturing symptoms for emotional gain e.g. Attention.
 
-Do not mistake symptoms symptoms for factitious/malingering just because it doesn't fit with what your framework
+Do not mistake symptoms symptoms for factitious/malingering just because it doesn't fit with what your framework.
 
 ::: notes
-One of the few things which I really hope that people take away from this teaching is that the symptoms and experience of functional symptoms are not under the conscious control of volition of the person experiencing them.
+-   Big take away message = real experience.
 
-This is really important because there is a history of people with FND not being believed or been described as "faking".
-
-These two conditions are different from FND And do you have some level of conscious control. While I am sure that there are a number of people with functional symptoms which may in fact be lingering, I truly believe that this is a very very very small minority.
+-   This is really important because there is a history of people with FND not being believed or been described as "faking".
 :::
 
 ## To Clarify {background-color="white"}
@@ -659,9 +724,9 @@ These two conditions are different from FND And do you have some level of consci
 
 -   Everyone has a role diagnosis.
 
--   Don't use pejorative language.
-
 -   Diagnosis based on positive symptoms.
+
+-   Avoid pejorative language.
 :::
 
 ::: {style="text-align: center; padding: 200px 0;"}
@@ -674,21 +739,21 @@ These two conditions are different from FND And do you have some level of consci
 # Explanatory Models {background-color="#57342d"}
 :::
 
-## The mind body link
+## The Mind Body Link
 
 ::: columns
 ::: {.column width="50%"}
-Psychological experiences influence the body **All The Time**
+Psychological experiences influence the body **All The Time.**
 
-The cause is not medical but the impact on the body is **real**
+The cause is not medical but the impact on the body is **real.**
 
--   Sudden shock = heart beats faster
+-   Sudden shock = heart beats faster.
 
--   Embarrassment = face goes red
+-   Embarrassment = face goes red.
 
--   Upset = eyes produce tears
+-   Upset = eyes produce tears.
 
-It is normal for changes to happen in the body *without* a medical cause or disease
+It is normal for changes to happen in the body *without* a medical cause or disease.
 
 FND also happens through this Mind-Body link.
 :::
@@ -709,27 +774,27 @@ FND also happens through this Mind-Body link.
 
 ## Autonomic Reactions
 
-Fight/flight/freeze response - evolutionary based fear response that is adaptive for survival
+Fight/flight/freeze response - evolutionary based fear response that is adaptive for survival.
 
-Freezing is one of the main defensive threat reactions across species (Roelofs, 2017; Rockliffe-Fidler & Mark Willis, 2018)
+Freezing is one of the main defensive threat reactions across species (Roelofs, 2017; Rockliffe-Fidler & Mark Willis, 2018).
 
 ![](files/img/fight-flight-freeze.jpg)
 
-\- fight-flight theory. sympathetic nervous system.
+-   Fight-flight theory. sympathetic nervous system.
 
-\- parasymathetic branch of the NS.
+-   Parasymathetic branch of the NS.
 
-\- Sometimes it can be an adaptive response.
+-   Sometimes it can be an adaptive response.
 
-\- A means of responding to a threat or a trigger. mammals.
+-   A means of responding to a threat or a trigger. mammals.
 
 ## Explanatory Models
 
--   Trauma & conversion.
--   Bio-psycho-social models.
--   Cognitive/neuropsychological models.
--   Integrated cognitive model.
--   Emotional processing.
+1.  Trauma & conversion.
+2.  Bio-psycho-social models.
+3.  Cognitive/neuropsychological models.
+4.  Integrated cognitive model.
+5.  Emotional processing.
 
 ------------------------------------------------------------------------
 
@@ -810,7 +875,7 @@ In the top left quadrant you have a scenari whereby you might have a biological 
 \- even people with mild biological risk can develop it.
 :::
 
-## BioPsychoSocial Model {background-color="white"}
+## Bio-psycho-social Model {background-color="white"}
 
 Taken from Reuber 2009
 
@@ -824,13 +889,13 @@ Taken from Nicholson 2020
 
 Model proposed by [Reuber & Brown (2017)](https://www.seizure-journal.com/article/S1059-1311(16)30222-9/fulltext)
 
--   Single explanatory framework
+-   Single explanatory framework.
 
 -   Symptoms = seizure scaffold + breakdown in inhibitory processes.
 
--   Brain response wrong to sensory input = error (because of our expectations).
+-   Brain response to sensory input = error (because of our expectations).
 
--   Seizure scaffold is what becomes activated (e.g., by arousal, emotions, thoughts).
+-   Seizure scaffold becomes activated (e.g., by arousal, emotions, thoughts).
 
 -   Over time becomes a conditioned response (also learned helplessness + wilful submission).
 
@@ -882,9 +947,19 @@ Taken from: [Drane et al (2020).](https://www.asuemotionlab.com/wp-content/uploa
 
 ## Emotional Processing Model
 
--   Based on new insights (emotion processing and imaging)
+-   Based on new insights (emotion processing and imaging).
 
--   Deficits in: emotion processing, self-agency, attention, interoception and inference. Difficulty can break down across any combination of these various areas.
+-   Deficits can be some combination of difficulty for:
+
+    -   Emotion processing
+
+    -   Self-agency
+
+    -   Attention
+
+    -   Interoception
+
+    -   Inference.
 
 -   Begins to explain the pathophysiology of FND.
 
@@ -892,9 +967,11 @@ Taken from: [Drane et al (2020).](https://www.asuemotionlab.com/wp-content/uploa
 
 -   Higher arousal states more akin to paroxysmal symptoms.
 
--   Difficulties with emotion processing (e.g., panic without panic). Helps to explain patients who don't identify as distressed (e.g., anx/dep).
+-   Difficulties with emotion processing (e.g., panic without panic).
 
--   Difficulties with interception (e.g., seeming but not feeling anxious).
+-   Helps to explain patients who don't identify as distressed (e.g., anx/dep).
+
+-   Difficulties with interoception (e.g., seeming but not feeling anxious).
 
 ::: notes
 The different symptoms of FND arise from one or a combination of specific abnormal constructs. For example, paroxysmal functional movements are perceived as involuntary by patients due to abnormalities in the construct of agency (Figure 1B). Other constructs in FND include impairments in emotion processing, attention, interoception, predictive processing/inference, and their interactions.
@@ -959,11 +1036,16 @@ To perform allostasis efficiently, the system needs to anticipate, sense and int
 -   Clinicians with familiarity in FND.
 
 ::: notes
-\- There will often (but not always) be a role for psychology in targeting behavioural cycles that maintain the symptoms (e.g., hyper vigilance, negative thoughts, safety behaviours).
+-   There will often (but not always) be a role for psychology in targeting behavioural cycles that maintain the symptoms (e.g., hyper vigilance, negative thoughts, safety behaviours).
 
-\- Input from physio, OT, SaLT should be appropriately selected based on symptom profile.
+```{=html}
+<!-- -->
+```
+-   Limit in experience can limit effectiveness
 
-\- Very seldom that services available with multi-disciplinary input.
+-   Input from physio, OT, SaLT should be appropriately selected based on symptom profile.
+
+-   Very seldom that services available with multi-disciplinary input.
 :::
 
 ## NeuroSymptoms: Treatment Formulator {background-color="white"}
@@ -982,6 +1064,8 @@ Support patients to use the [newly developed tool](https://formulation.neurosymp
 -   Gives a tentative set of suggestions of what type of help is likely to be needed.
 
 -   Beings to make suggestions about what some of the causes might be.
+
+-   CAVEAT THIS IS NOT A SUBSTITUTE FOR TREATMENT.
 :::
 
 ## Health Provision
@@ -991,9 +1075,9 @@ Need to move away from services only being able to provide single/multi discipli
 [![Take from https://www.totalcommunication.com](files/img/mdt-input.png)](https://www.totalcommunication.com.sg/post/transdisciplinary-approach-what-does-it-mean)
 
 ::: notes
--   Tend to be referred from neurology for psychology.
+-   Tend to be referred from neurology for psychology. Only right for a proportion of people.
 
--   Occasionally patients also have access to other input.
+-   Occasionally patients also have access to other input; often not skilled/experienced in FND.
 
 -   Ideally skilled and experienced clinicians working together.
 
@@ -1027,6 +1111,8 @@ Need to move away from services only being able to provide single/multi discipli
 
 -   Implications for acceptability.
 
+-   MH should be treated irrespective of trauma (however in FND people get used to it).
+
 -   Some people can better in a small number of timely delivered psychology sessions.
 
 -   Smoke without fire. Provide education and skills for identifying and managing seizures however if someone is living in chaotic surroundings; MH comorbid then it is like trying to waft fire.
@@ -1053,9 +1139,13 @@ Need to move away from services only being able to provide single/multi discipli
     -   Preliminary feasibility for physiotherapy ([Maggio et al., 2019](https://neuro.psychiatryonline.org/doi/full/10.1176/appi.neuropsych.19030068)).
 
 ::: notes
--   82% of those completing [psychotherapy](https://www.sciencedirect.com/topics/medicine-and-dentistry/psychotherapy "Learn more about psychotherapy from ScienceDirect's AI-generated Topic Pages") report a reduction in seizures of ≥50%.
+-   Much of the evidence is on functional seizures.
+-   Carlson 47% = seizure free; 82% = seizure reduction of at least 50%.
 -   Not lots known about who doesn't respond; or long-term follow up.
--   This body of evidence suggests that neurocircuitry-based interventions, such as non-invasive brain stimulation techniques (NIBS), may also represent an effective therapeutic option for patients with FND.
+-   non-invasive brain stimulation techniques (NIBS) may be effective
+    -   Transcranial magnetic stimulation (TMS)
+
+        Ttranscranial direct current stimulation (tDCS) 
 :::
 
 ## Problems with Measuring Seizures {background-color="white"}
@@ -1081,36 +1171,34 @@ Need to move away from services only being able to provide single/multi discipli
 :::
 
 ::: notes
+-   Some people place greater importance on QoL
+
 -   Hard to reliable track.
 
 -   Unusual distribution (which doesn't always reflect function).
 
--   Some people place greater importance on QoL
+    -   1 seizure per month hard to compare against 100 per day at times.
 
--   Psychological distress.
+    -   Safety behaviours.
 
--   not a consistent unit of measurement (heterogeneity, severity, duration)
+-   Not a consistent unit of measurement (heterogeneity, severity, duration)
 
--   Many components affected.
-
--   Temporal variability.
-
--   Safety behaviours.
+-   Many areas affected.
 :::
 
 ## What to Measure? {background-color="white"}
 
 -   Not just about the core FND symptoms.
 
--   7+ outcome measures used per study (Gaskell et al., unpublished).[^7]
+-   7+ outcome measures used per study (unpublished study).[^7]
 
--   FND core outcome battery and specific outcome measures still lacking (for now)
+-   Core outcome battery and specific tools still lacking (for now).
 
-[^7]: Being prepared for publication.
+[^7]: Results being prepared for publication.
 
 Taken from [Nicholson (2020)](https://neuro.psychiatryonline.org/doi/abs/10.1176/appi.neuropsych.19060128)
 
-![](files/img/outcome.domains.jpg){alt="Taken from Nicholson (2020)"}
+![](files/img/outcome.domains.jpg){alt="Taken from Nicholson (2020)" fig-align="center" width="600"}
 
 ## Change Across Other Measures {background-color="white"}
 
@@ -1119,20 +1207,30 @@ In all conditions treatment remains effective (approx *d* = .5)
 ![Preliminary results being prepared for publication.](files/img/forest.png){width="1300" height="600"}
 
 ::: notes
-Preliminary findings being prepared for publication.
+-   Preliminary findings being prepared for publication.
 
-No evidence yet for schema therapy, mentalisation or CAT
+-   There is hope: Functioning.
+
+-   Long and behavioural treatments may have promise.
+
+-   No evidence yet for schema therapy, mentalisation or CAT.
 :::
 
 ## Acceptability
 
 -   Some patients ambivalent to treatment.
 
+-   Doesn't always fit with patient view of difficulties.
+
 -   Comes following a long journey.
 
 -   High expectations.
 
--   Doesn't always fit with patient view of difficulties.
+::: notes
+-   Psychology referral for physical symptoms. People often really unsure. Some drop out. Some don't enter treatment.
+
+-   Desperation. last hope. High expectations.
+:::
 
 ## How do Treatments Work?
 
@@ -1151,11 +1249,13 @@ No evidence yet for schema therapy, mentalisation or CAT
 ::: notes
 -   Psychoeducation crucial.
 
-    -   Recognising risk factors.
+    -   Recognising triggers and risk factors.
 
     -   Heightening interoceptive capacity.
 
     -   Strategies for circumventing (e.g., breathing, grounding)
+
+    -   Dealing with safety behaviours.
 
 -   Evidence that CBT helps in the short term.
 
@@ -1170,9 +1270,29 @@ No evidence yet for schema therapy, mentalisation or CAT
 
 ![](files/img/ICM.example.1.png)
 
+::: notes
+Case example.
+
+-   Not as complicated as it looks.
+
+-   Internal seizure scaffold.
+
+-   Diane:
+
+    -   We have worked out the triggers. Don't always lead to a seizure.
+
+    -   Inhibitory dysfunction to understand why it is only certain times that the seizures happen.
+
+    -   Encouraging self-monitoring or body and arousal been able to deepen identification of when one is close. WARNING SIGNS (racing thoughts, twitching arm)
+
+    -   Overtime becomes more automatic.
+
+-   Only applies to Diane.
+:::
+
 ## Ways to Intervene
 
-![](files/img/ICM.example.2.png)
+![](files/img/ICM.example.2.jpeg)
 
 ------------------------------------------------------------------------
 
