@@ -426,9 +426,9 @@ Taken from: FND in the emergency department [Finkelstein et al (2021)](https://o
 {{< youtube BEtLcfikzPI >}}
 
 ::: notes
--   Hoover test.
+-   Incongruence.
 
--   Incongruence. Not about trying to catch them out. This is FND. Complex brain network disorder impacting upon aspects of attention, autonomy and emotion processing.
+-   Not about trying to catch them out. Complex brain network disorder impacting upon aspects of attention, autonomy and emotion processing.
 :::
 
 ## Symptoms: Functional Seizures {background-color="white"}
@@ -458,7 +458,11 @@ Taken from: FND in the emergency department [Finkelstein et al (2021)](https://o
 :::
 
 ::: notes
--   It is difficult to accurately quantify prevalence rates due to diagnostic delay and patients being lost to follow-up.
+-   Difficult to accurately quantify prevalence rates due to:
+
+    -   diagnostic delay
+
+    -   patients being lost to follow-up.
 
 -   May not seem common; but patients frequently attend to A&E and psychology services so I will guarantee that pretty much everyone will work with someone at somepoint.
 :::
@@ -494,24 +498,24 @@ For a detailed account of risk and aetiological factors see [Popkirov et al., (2
 
 -   Modal age of onset is 16. mean and median = 28.
 
--   Largely seen as a female condition although this effect reduces in late adulthood.
-
--   Generally consistent with Hansen 2020 pediatric paper which found that across pediatric populations incidence rates is highest in 16-17 years old.
+-   Age disparity dissipates in late adulthood.
 
 **Epilepsy:**
 
--   Comorbid epilepsy and psychogenic nonepileptic seizures (PNES) occur in 12--22% of cases and the diagnosis of both simultaneous disorders is challenging.
+-   12--22% Dual diagnosis (meta-analysis).
 
--   Approx 22% in a large scale meta-analysis.
+-   Challenging to diagnose
 
-LD:
+**LD:**
 
--   A median rate of 9.4% of comorbid ID was found across eleven PNES cohorts (Rawlings et al., 2021).
+-   Median = 9.4% of comorbid ID was found across eleven PNES cohorts (Rawlings et al., 2021).
 
-Demographics:
+**Demographics:**
 
--   over 50% of all patients live in areas categorised within the highest
-    deprivation quintile and over two- thirds of patients being unemployed at the
+-   Over 50% of all patients live in areas categorised within the highest
+    deprivation quintile
+
+-   Over two- thirds of patients being unemployed at the
     point of seeking treatment for PNES (Goldstein *et al.*, 2019).
 :::
 
@@ -544,13 +548,14 @@ For a detailed account of risk and aetiological factor see [Popkirov et al., (20
 ::: notes
 -   **PTSD:** 38%
 
-```{=html}
-<!-- -->
-```
 -   Norm rather than an exception (Nicholson et al., 2020).
+
 -   **Psychiatric conditions:** especially affective, trauma-related and/or dissociative disorders, are typically present in over 50% of most FND samples, with lifetime rates even higher.
+
 -   **Personality disorders:** higher rate than the general population. Particularly EUPD and cluster C presentations.
+
 -   **Epilepsy surgery:** New onset following surgery (upto 9%).
+
 -   **TBI:** Rates vary a lot. Pooled frequency of about 42%
 :::
 
@@ -637,15 +642,15 @@ Many terms have been used:
 :::
 
 ::: notes
-\- Important slide.
+-   Langue is important
 
-\- The language that gets used in referring to these experiences can be highly variable. As you can see on the slide there are a range of different terms which have all been used to describe a very similar experience or set of symptoms.
+-   Range of terms
 
-The problem is some of The terms you can see are far less favoured by the FND community, and rightly so. There are unfortunately a lot of unhelpful views, stigmatisation held towards people that have this condition. And therefore some of these terms may. Hold onto those pejorative views.
+-   Language has often included content that dismisses people are leaves them feeling like the condition isn't real.
 
-\- There is unfortunately no consensus as to which term is the best, almost accurate.
+-   Some highly unfavoured by the FND community. Particularly stigmatising terms.
 
-\- And this is a topic of high debate currently. Terms which are generally less helpful are pseudoseizures, psychological seizures and conversion disorder.
+-   Some terms hold on to pejorative views.
 :::
 
 ## Avoid Pejorative Terms
@@ -698,7 +703,9 @@ Taken from recent [Loewenberger, 2021](https://onlinelibrary.wiley.com/doi/full/
 :::
 
 ::: notes
-The bar chart that you can see shows the preference ratings of the commonly used terms in order to show rank. The terms are the score so a low preference rating is desirable and high preference rating is undesirable. As you can see hysteria pseudoseizures, Somatoform disorder are all less preferred. This is not surprising given the history of stigma and pejorative attitudes towards these terms.
+-   UK service evaluation
+
+-   The bar chart that you can see shows the preference ratings of the commonly used terms in order to show rank.
 :::
 
 ## Not to be Confused With
@@ -707,7 +714,7 @@ The bar chart that you can see shows the preference ratings of the commonly used
 
 **Factitious Disorder:** Deliberately manufacturing symptoms for emotional gain e.g. Attention.
 
-Do not mistake symptoms symptoms for factitious/malingering just because it doesn't fit with what your framework.
+Do not mistake symptoms for factitious/malingering just because it doesn't fit with what your framework.
 
 ::: notes
 -   Big take away message = real experience.
@@ -1126,7 +1133,7 @@ Need to move away from services only being able to provide single/multi discipli
 
     -   Systematic reviews support psychotherapy for FND [(Gutkin et al., 2021)](https://jnnp.bmj.com/content/jnnp/92/1/36.full.pdf).
 
-    -   ≥50% patients achieve seizure reduction [(Carlson & Perry, 2017)](https://pubmed.ncbi.nlm.nih.gov/28063373/).
+    -   47% patients achieve seizure freedom [(Carlson & Perry, 2017)](https://pubmed.ncbi.nlm.nih.gov/28063373/).
 
     -   Recent RCT however found no significant change for seizure frequency [(CODES, 2020)](https://www.thelancet.com/journals/lanpsy/article/PIIS2215-0366(20)30128-0/fulltext).
 
@@ -1273,9 +1280,11 @@ In all conditions treatment remains effective (approx *d* = .5)
 ::: notes
 Case example.
 
--   Not as complicated as it looks.
+-   Try to complete with patient over first few sessions.
 
--   Internal seizure scaffold.
+-   What are the risk factors, triggers, what formed the scaffold, what does the patient notice before he or she has a seizure. How do you recover?
+
+-   Just the knowledge of this and things start to change,
 
 -   Diane:
 
