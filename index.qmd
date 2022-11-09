@@ -1082,6 +1082,8 @@ Need to move away from services only being able to provide single/multi discipli
 [![Take from https://www.totalcommunication.com](files/img/mdt-input.png)](https://www.totalcommunication.com.sg/post/transdisciplinary-approach-what-does-it-mean)
 
 ::: notes
+-   Important that health services are set up right
+
 -   Tend to be referred from neurology for psychology. Only right for a proportion of people.
 
 -   Occasionally patients also have access to other input; often not skilled/experienced in FND.
@@ -1114,15 +1116,13 @@ Need to move away from services only being able to provide single/multi discipli
 
 -   Otherwise may need to be team input.
 
--   Patients will miss out if they only recieve psychology, while have other needs.
+-   MH should be treated irrespective of FND.
 
--   Implications for acceptability.
+-   Some people with lots of health and MH comorbidities benefit from focused work on FND.
 
--   MH should be treated irrespective of trauma (however in FND people get used to it).
+-   Some people need to work on the things underlying, which may be maintaining the FND.
 
--   Some people can better in a small number of timely delivered psychology sessions.
-
--   Smoke without fire. Provide education and skills for identifying and managing seizures however if someone is living in chaotic surroundings; MH comorbid then it is like trying to waft fire.
+-   For some people: If you spend time focusing on the smoke (core FND) but don't work on the underlying distress maintaining then treatment might not be effective and patients may relapse.
 :::
 
 ## The Evidence Base?
@@ -1155,43 +1155,7 @@ Need to move away from services only being able to provide single/multi discipli
         Ttranscranial direct current stimulation (tDCS) 
 :::
 
-## Problems with Measuring Seizures {background-color="white"}
-
-::: columns
-::: {.column width="50%"}
--   Not always amenable to change [(CODES, 2020)](https://www.thelancet.com/journals/lanpsy/article/PIIS2215-0366(20)30128-0/fulltext).
-
--   Hard to synthesize results due to heterogeneity of frequency.
-
--   Hard to accurately measure.
-
--   Hard to attribute importance of weighting.
-
--   Seizures may not be the primary problem.
-
--   Patient may have other things they want to change.
-:::
-
-::: {.column width="50%"}
-![](files/img/codes.png)
-:::
-:::
-
-::: notes
--   Some people place greater importance on QoL
-
--   Hard to reliable track.
-
--   Unusual distribution (which doesn't always reflect function).
-
-    -   1 seizure per month hard to compare against 100 per day at times.
-
-    -   Safety behaviours.
-
--   Not a consistent unit of measurement (heterogeneity, severity, duration)
-
--   Many areas affected.
-:::
+##  {background-color="white"}
 
 ## What to Measure? {background-color="white"}
 
@@ -1302,26 +1266,6 @@ Case example.
 ## Ways to Intervene
 
 ![](files/img/ICM.example.2.jpeg)
-
-------------------------------------------------------------------------
-
-![](files/img/polyvagal.jpg)
-
-![](files/img/green.png)
-
-![](files/img/amber.png)
-
-### What can cause a person to go into/ stay in the amber zone?
-
--   Physical stress in the body (e.g., injury, illness, pain).
-
--   Difficult past experiences (e.g., situations that have felt threatening, loss of a loved one).
-
--   Current stressful situations (e.g., relating to finances, relationships, difficulty meeting responsibilities, loss of independence).
-
--   Emotional stress (e.g., worries about the future, difficult memories).
-
-For many people, it is not one big thing that has caused them to go into and stay in the amber zone. It is often a combination of factors.
 
 ------------------------------------------------------------------------
 
