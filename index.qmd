@@ -22,6 +22,17 @@ format:
     footnotes-hover: true
     filters: 
       - designmode
+    include-in-header: 
+      text: |
+        <meta name="github-repo" content="JauntyJJS/NHS-R2022"/>
+        <meta name="twitter:title" content="Viewing Multiple Inteactive Plots Using Plotly and Trelliscopejs"/>
+        <meta name="twitter:description" content="NHS-R Online Conference 2022. "/>
+        <meta name="twitter:url" content="https://jauntyjjs-nhs-r-2022.netlify.app/"/>
+        <meta name="twitter:image" content="https://raw.githubusercontent.com/JauntyJJS/NHS-R2022/main/share-card.png"/>
+        <meta name="twitter:image:alt" content="Title slide of Viewing Multiple Inteactive Plots Using Plotly and Trelliscopejs presented at NHS-R Online Conference 2022."/>
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta name="twitter:creator" content="@JauntyJJS"/>
+        <meta name="twitter:site" content="@JauntyJJS"/>
 ---
 
 ## An Introduction to Working with Functional Neurological Disorders {style="font-size: 35px; text-align: center;"}
@@ -347,6 +358,120 @@ Compared to brain imaging in other neuropsychiatric disorders, FND research rema
 # Diagnosis, Prevalence & Terminology {background-color="#57342d"}
 :::
 
+## How Common Is FND?
+
+**FND Prevalence:** 50/100000 in the population (Carson, 2016).
+
+**Functional Seizure Prevalence:**
+
+-   2-33/100000 (Carson, 2016).
+
+-   Recent estimate = 24/100,000 (Norway) [(Villagrán, 2021)](https://onlinelibrary.wiley.com/doi/full/10.1111/epi.16949) .
+
+-   Estimated 20,000 people in the UK.
+
+-   8-12% of new presentations to seizure clinics [(Angus-Leppan, 2008)](href=%22https://www.sciencedirect.com/science/article/pii/S1059131108000022).
+
+-   11% of seizures presenting to emergency services (Dickson et al., 2017).
+
+::: aside
+-   It is difficult to accurately quantify prevalence rates.
+:::
+
+-   Difficult to accurately quantify prevalence rates due to:
+
+    -   diagnostic delay
+
+    -   patients being lost to follow-up.
+
+-   May not seem common; but patients frequently attend to A&E and psychology services so I will guarantee that pretty much everyone will work with someone at somepoint.
+
+## What Are The Risk Factors For FND?
+
+-   **Age:**
+
+    -   Presents across the life span.
+
+    -   Young adults (15--19) most at risk: 59.5 per 100,000. ([Villagrán et al., 2021](https://onlinelibrary.wiley.com/doi/full/10.1111/epi.16949))
+
+-   **Gender:**
+
+    -   Female preponderance = 60-80%.
+
+    -   Disparities less evident in older cohorts (e.g., [Jungilligens, 2021](https://jnnp.bmj.com/content/early/2021/08/16/jnnp-2021-326443.abstract))
+
+-   **Epilepsy:** High rate of co-morbidity.
+
+-   **Learning Disabilities:** High rate of co-morbidity ([Rawlings et al., 2021](https://www.sciencedirect.com/science/article/pii/S1059131121002521)).
+
+-   **Demographics:**
+
+    -   White and low SES
+
+::: aside
+For a detailed account of risk and aetiological factors see [Popkirov et al., (2019)](https://onlinelibrary.wiley.com/doi/pdf/10.1684/epd.2019.1107)
+:::
+
+**Age:**
+
+-   Modal age of onset is 16. mean and median = 28.
+
+-   Age disparity dissipates in late adulthood.
+
+**Epilepsy:**
+
+-   12--22% Dual diagnosis (meta-analysis).
+
+-   Challenging to diagnose
+
+**LD:**
+
+-   Median = 9.4% of comorbid ID was found across eleven PNES cohorts (Rawlings et al., 2021).
+
+**Demographics:**
+
+-   Over 50% of all patients live in areas categorised within the highest deprivation quintile
+
+-   Over two- thirds of patients being unemployed at the point of seeking treatment for PNES (Goldstein *et al.*, 2019).
+
+## What Are The Risk Factors For FND?
+
+-   **Psychiatric Co-morbidity:**
+
+    -   Anxiety and depression.
+
+    -   Interpersonal disorders.
+
+    -   PTSD, Trauma.
+
+-   **Health Co-morbidity:**
+
+    -   Pain & Fatigue.
+
+    -   Sleep disturbance.
+
+    -   Migraine.
+
+    -   TBI.
+
+    -   Epilepsy Surgery
+
+::: aside
+For a detailed account of risk and aetiological factor see [Popkirov et al., (2019)](https://onlinelibrary.wiley.com/doi/pdf/10.1684/epd.2019.1107)
+:::
+
+-   **PTSD:** 38%
+
+-   Norm rather than an exception (Nicholson et al., 2020).
+
+-   **Psychiatric conditions:** especially affective, trauma-related and/or dissociative disorders, are typically present in over 50% of most FND samples, with lifetime rates even higher.
+
+-   **Personality disorders:** higher rate than the general population. Particularly EUPD and cluster C presentations.
+
+-   **Epilepsy surgery:** New onset following surgery (upto 9%).
+
+-   **TBI:** Rates vary a lot. Pooled frequency of about 42%
+
 ## Who Is Involved in Diagnosis?
 
 Usually by a Neurologist or Neuropsychiatrist.
@@ -512,11 +637,9 @@ For a detailed account of risk and aetiological factors see [Popkirov et al., (2
 
 **Demographics:**
 
--   Over 50% of all patients live in areas categorised within the highest
-    deprivation quintile
+-   Over 50% of all patients live in areas categorised within the highest deprivation quintile
 
--   Over two- thirds of patients being unemployed at the
-    point of seeking treatment for PNES (Goldstein *et al.*, 2019).
+-   Over two- thirds of patients being unemployed at the point of seeking treatment for PNES (Goldstein *et al.*, 2019).
 :::
 
 ## What Are The Risk Factors For FND?
@@ -1045,9 +1168,8 @@ To perform allostasis efficiently, the system needs to anticipate, sense and int
 ::: notes
 -   There will often (but not always) be a role for psychology in targeting behavioural cycles that maintain the symptoms (e.g., hyper vigilance, negative thoughts, safety behaviours).
 
-```{=html}
 <!-- -->
-```
+
 -   Limit in experience can limit effectiveness
 
 -   Input from physio, OT, SaLT should be appropriately selected based on symptom profile.
