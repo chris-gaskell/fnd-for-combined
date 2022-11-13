@@ -6,15 +6,15 @@ format:
   revealjs:
     include-in-header: 
       text: |
-        <meta name="github-repo" content="JauntyJJS/NHS-R2022"/>
-        <meta name="twitter:title" content="Viewing Multiple Inteactive Plots Using Plotly and Trelliscopejs"/>
-        <meta name="twitter:description" content="NHS-R Online Conference 2022. "/>
-        <meta name="twitter:url" content="https://jauntyjjs-nhs-r-2022.netlify.app/"/>
-        <meta name="twitter:image" content="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"/>
-        <meta name="twitter:image:alt" content="Title slide of Viewing Multiple Inteactive Plots Using Plotly and Trelliscopejs presented at NHS-R Online Conference 2022."/>
+        <meta name="github-repo" content="chris-gaskell/fnd-for-combined"/>
+        <meta name="twitter:title" content="An Introduction to Working with Functional Neurological Disorders"/>
+        <meta name="twitter:description" content="An Introduction to Working with Functional Neurological Disorders"/>
+        <meta name="twitter:url" content="https://fnd-for-combined.netlify.app"/>
+        <meta name="twitter:image" content="https://github.com/chris-gaskell/fnd-for-combined/blob/master/twitter-pic.jpg?raw=true"/>
+        <meta name="twitter:image:alt" content="Title slide of An Introduction to Working with Functional Neurological Disorders presented to Medics and Psychologists for North Staffs Combined NHS Trust 2022."/>
         <meta name="twitter:card" content="summary_large_image"/>
-        <meta name="twitter:creator" content="@JauntyJJS"/>
-        <meta name="twitter:site" content="@JauntyJJS"/>
+        <meta name="twitter:creator" content="@chrisgaskell92/>
+        <meta name="twitter:site" content="@chrisgaskell92"/>
     smaller: false
     scrollable: true
     incremental: false
@@ -1247,7 +1247,9 @@ Need to move away from services only being able to provide single/multi discipli
 -   For some people: If you spend time focusing on the smoke (core FND) but don't work on the underlying distress maintaining then treatment might not be effective and patients may relapse.
 :::
 
-## The Evidence Base?
+## The Evidence Base?[^7]
+
+[^7]: See [Beal et al (2022](https://pubmed.ncbi.nlm.nih.gov/35339813/)) for a review of the area.
 
 -   **Psychology**
 
@@ -1283,11 +1285,11 @@ Need to move away from services only being able to provide single/multi discipli
 
 -   Not just about the core FND symptoms.
 
--   7+ outcome measures used per study (unpublished study).[^7]
+-   7+ outcome measures used per study (unpublished study).[^8]
 
 -   Core outcome battery and specific tools still lacking (for now).
 
-[^7]: Results being prepared for publication.
+[^8]: Results being prepared for publication.
 
 Taken from [Nicholson (2020)](https://neuro.psychiatryonline.org/doi/abs/10.1176/appi.neuropsych.19060128)
 
